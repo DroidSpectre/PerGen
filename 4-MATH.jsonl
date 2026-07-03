@@ -1,0 +1,500 @@
+{"instruction": "Solve the following addition problem: 247 + 389", "input": "", "output": "247 + 389 = 636"}
+{"instruction": "Calculate 15 × 23", "input": "", "output": "15 × 23 = 345"}
+{"instruction": "Find the quotient when 156 is divided by 12", "input": "", "output": "156 ÷ 12 = 13"}
+{"instruction": "What is 789 - 456?", "input": "", "output": "789 - 456 = 333"}
+{"instruction": "Calculate the sum of the first 10 positive integers", "input": "", "output": "The sum is 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = 55"}
+{"instruction": "Solve for x: 2x + 5 = 17", "input": "", "output": "2x + 5 = 17\n2x = 17 - 5\n2x = 12\nx = 6"}
+{"instruction": "Factor the quadratic expression: x² + 5x + 6", "input": "", "output": "x² + 5x + 6 = (x + 2)(x + 3)"}
+{"instruction": "Solve the system of equations: x + y = 7, 2x - y = 2", "input": "", "output": "From the first equation: y = 7 - x\nSubstitute into second: 2x - (7 - x) = 2\n2x - 7 + x = 2\n3x = 9\nx = 3\ny = 7 - 3 = 4\nSolution: x = 3, y = 4"}
+{"instruction": "Find the slope of the line passing through points (2, 3) and (5, 9)", "input": "", "output": "Slope = (y₂ - y₁)/(x₂ - x₁) = (9 - 3)/(5 - 2) = 6/3 = 2"}
+{"instruction": "Expand (x + 3)²", "input": "", "output": "(x + 3)² = x² + 6x + 9"}
+{"instruction": "Find the area of a circle with radius 5 units", "input": "", "output": "Area = πr² = π × 5² = 25π ≈ 78.54 square units"}
+{"instruction": "Calculate the perimeter of a rectangle with length 8 cm and width 5 cm", "input": "", "output": "Perimeter = 2(length + width) = 2(8 + 5) = 2(13) = 26 cm"}
+{"instruction": "Find the volume of a cylinder with radius 3 cm and height 10 cm", "input": "", "output": "Volume = πr²h = π × 3² × 10 = 90π ≈ 282.74 cubic cm"}
+{"instruction": "What is the sum of interior angles of a hexagon?", "input": "", "output": "Sum of interior angles = (n - 2) × 180° = (6 - 2) × 180° = 4 × 180° = 720°"}
+{"instruction": "Find the hypotenuse of a right triangle with legs 3 and 4", "input": "", "output": "Using Pythagorean theorem: c² = a² + b² = 3² + 4² = 9 + 16 = 25\nc = √25 = 5"}
+{"instruction": "Find the derivative of f(x) = 3x² + 2x - 1", "input": "", "output": "f'(x) = 6x + 2"}
+{"instruction": "Evaluate the integral ∫(2x + 3)dx", "input": "", "output": "∫(2x + 3)dx = x² + 3x + C"}
+{"instruction": "Find the limit: lim(x→2) (x² - 4)/(x - 2)", "input": "", "output": "lim(x→2) (x² - 4)/(x - 2) = lim(x→2) (x + 2)(x - 2)/(x - 2) = lim(x→2) (x + 2) = 4"}
+{"instruction": "Find the critical points of f(x) = x³ - 3x² + 2", "input": "", "output": "f'(x) = 3x² - 6x = 3x(x - 2)\nCritical points occur when f'(x) = 0\n3x(x - 2) = 0\nx = 0 or x = 2"}
+{"instruction": "Calculate the area under the curve y = x² from x = 0 to x = 2", "input": "", "output": "Area = ∫₀² x² dx = [x³/3]₀² = 8/3 - 0 = 8/3 square units"}
+{"instruction": "Find the mean of the data set: 4, 7, 9, 10, 15", "input": "", "output": "Mean = (4 + 7 + 9 + 10 + 15)/5 = 45/5 = 9"}
+{"instruction": "Calculate the median of: 3, 7, 8, 12, 15, 18, 21", "input": "", "output": "The median is the middle value when arranged in order: 12"}
+{"instruction": "Find the mode of: 2, 3, 3, 5, 5, 5, 7, 8", "input": "", "output": "The mode is 5 (appears most frequently - 3 times)"}
+{"instruction": "Calculate the range of: 12, 8, 15, 23, 7, 19", "input": "", "output": "Range = Maximum - Minimum = 23 - 7 = 16"}
+{"instruction": "Find the standard deviation of: 2, 4, 6, 8", "input": "", "output": "Mean = (2+4+6+8)/4 = 5\nVariance = [(2-5)² + (4-5)² + (6-5)² + (8-5)²]/4 = [9+1+1+9]/4 = 5\nStandard deviation = √5 ≈ 2.24"}
+{"instruction": "Find sin(30°)", "input": "", "output": "sin(30°) = 1/2 = 0.5"}
+{"instruction": "Calculate cos(60°)", "input": "", "output": "cos(60°) = 1/2 = 0.5"}
+{"instruction": "What is tan(45°)?", "input": "", "output": "tan(45°) = 1"}
+{"instruction": "Convert 45° to radians", "input": "", "output": "45° = 45 × π/180 = π/4 radians"}
+{"instruction": "Solve for x: sin(x) = 1/2, where 0° ≤ x ≤ 360°", "input": "", "output": "x = 30° or x = 150°"}
+{"instruction": "Find the prime factorization of 60", "input": "", "output": "60 = 2² × 3 × 5"}
+{"instruction": "What is the greatest common divisor (GCD) of 24 and 36?", "input": "", "output": "GCD(24, 36) = 12"}
+{"instruction": "Find the least common multiple (LCM) of 8 and 12", "input": "", "output": "LCM(8, 12) = 24"}
+{"instruction": "Is 97 a prime number?", "input": "", "output": "Yes, 97 is prime. It has no divisors other than 1 and itself."}
+{"instruction": "Find all factors of 36", "input": "", "output": "Factors of 36: 1, 2, 3, 4, 6, 9, 12, 18, 36"}
+{"instruction": "Calculate 639 + 461", "input": "", "output": "639 + 461 = 1100"}
+{"instruction": "Calculate 23 × 6", "input": "", "output": "23 × 6 = 138"}
+{"instruction": "Calculate 317 - 76", "input": "", "output": "317 - 76 = 241"}
+{"instruction": "Calculate 917 + 733", "input": "", "output": "917 + 733 = 1650"}
+{"instruction": "Calculate 36 × 22", "input": "", "output": "36 × 22 = 792"}
+{"instruction": "Calculate 995 + 175", "input": "", "output": "995 + 175 = 1170"}
+{"instruction": "Calculate 117 + 355", "input": "", "output": "117 + 355 = 472"}
+{"instruction": "Calculate 411 - 315", "input": "", "output": "411 - 315 = 96"}
+{"instruction": "Calculate 41 × 50", "input": "", "output": "41 × 50 = 2050"}
+{"instruction": "Calculate 929 - 448", "input": "", "output": "929 - 448 = 481"}
+{"instruction": "Calculate 9 × 28", "input": "", "output": "9 × 28 = 252"}
+{"instruction": "Calculate 34 × 25", "input": "", "output": "34 × 25 = 850"}
+{"instruction": "Calculate 517 + 337", "input": "", "output": "517 + 337 = 854"}
+{"instruction": "Calculate 36 × 15", "input": "", "output": "36 × 15 = 540"}
+{"instruction": "Calculate 932 + 450", "input": "", "output": "932 + 450 = 1382"}
+{"instruction": "Calculate 733 + 111", "input": "", "output": "733 + 111 = 844"}
+{"instruction": "Calculate 602 - 396", "input": "", "output": "602 - 396 = 206"}
+{"instruction": "Calculate 835 - 673", "input": "", "output": "835 - 673 = 162"}
+{"instruction": "Calculate 827 - 770", "input": "", "output": "827 - 770 = 57"}
+{"instruction": "Calculate 844 - 43", "input": "", "output": "844 - 43 = 801"}
+{"instruction": "Calculate 903 - 647", "input": "", "output": "903 - 647 = 256"}
+{"instruction": "Calculate 768 + 148", "input": "", "output": "768 + 148 = 916"}
+{"instruction": "Calculate 961 + 813", "input": "", "output": "961 + 813 = 1774"}
+{"instruction": "Calculate 882 - 137", "input": "", "output": "882 - 137 = 745"}
+{"instruction": "Calculate 37 × 11", "input": "", "output": "37 × 11 = 407"}
+{"instruction": "Calculate 45 × 17", "input": "", "output": "45 × 17 = 765"}
+{"instruction": "Calculate 28 × 21", "input": "", "output": "28 × 21 = 588"}
+{"instruction": "Calculate 40 × 17", "input": "", "output": "40 × 17 = 680"}
+{"instruction": "Calculate 529 + 591", "input": "", "output": "529 + 591 = 1120"}
+{"instruction": "Calculate 947 - 900", "input": "", "output": "947 - 900 = 47"}
+{"instruction": "Calculate 304 - 47", "input": "", "output": "304 - 47 = 257"}
+{"instruction": "Calculate 31 × 34", "input": "", "output": "31 × 34 = 1054"}
+{"instruction": "Calculate 519 + 521", "input": "", "output": "519 + 521 = 1040"}
+{"instruction": "Calculate 231 + 184", "input": "", "output": "231 + 184 = 415"}
+{"instruction": "Calculate 869 - 415", "input": "", "output": "869 - 415 = 454"}
+{"instruction": "Calculate 912 - 637", "input": "", "output": "912 - 637 = 275"}
+{"instruction": "Calculate 199 + 465", "input": "", "output": "199 + 465 = 664"}
+{"instruction": "Calculate 198 + 113", "input": "", "output": "198 + 113 = 311"}
+{"instruction": "Calculate 941 - 626", "input": "", "output": "941 - 626 = 315"}
+{"instruction": "Calculate 22 × 17", "input": "", "output": "22 × 17 = 374"}
+{"instruction": "Calculate 5 × 13", "input": "", "output": "5 × 13 = 65"}
+{"instruction": "Calculate 164 - 46", "input": "", "output": "164 - 46 = 118"}
+{"instruction": "Calculate 413 - 153", "input": "", "output": "413 - 153 = 260"}
+{"instruction": "Calculate 872 - 258", "input": "", "output": "872 - 258 = 614"}
+{"instruction": "Calculate 17 × 19", "input": "", "output": "17 × 19 = 323"}
+{"instruction": "Calculate 19 × 39", "input": "", "output": "19 × 39 = 741"}
+{"instruction": "Calculate 6 × 3", "input": "", "output": "6 × 3 = 18"}
+{"instruction": "Calculate 814 - 116", "input": "", "output": "814 - 116 = 698"}
+{"instruction": "Calculate 669 + 907", "input": "", "output": "669 + 907 = 1576"}
+{"instruction": "Calculate 27 × 8", "input": "", "output": "27 × 8 = 216"}
+{"instruction": "Add the fractions: 8/11 + 9/4", "input": "", "output": "8/11 + 9/4 = 32/44 + 99/44 = 131/44"}
+{"instruction": "Add the fractions: 3/8 + 8/5", "input": "", "output": "3/8 + 8/5 = 15/40 + 64/40 = 79/40"}
+{"instruction": "Add the fractions: 1/2 + 4/10", "input": "", "output": "1/2 + 4/10 = 5/10 + 4/10 = 9/10"}
+{"instruction": "Add the fractions: 6/6 + 7/12", "input": "", "output": "6/6 + 7/12 = 12/12 + 7/12 = 19/12"}
+{"instruction": "Add the fractions: 4/8 + 4/3", "input": "", "output": "4/8 + 4/3 = 12/24 + 32/24 = 44/24 = 11/6"}
+{"instruction": "Add the fractions: 1/11 + 3/8", "input": "", "output": "1/11 + 3/8 = 8/88 + 33/88 = 41/88"}
+{"instruction": "Add the fractions: 1/9 + 4/12", "input": "", "output": "1/9 + 4/12 = 4/36 + 12/36 = 16/36 = 4/9"}
+{"instruction": "Add the fractions: 6/5 + 5/10", "input": "", "output": "6/5 + 5/10 = 12/10 + 5/10 = 17/10"}
+{"instruction": "Add the fractions: 7/6 + 2/5", "input": "", "output": "7/6 + 2/5 = 35/30 + 12/30 = 47/30"}
+{"instruction": "Add the fractions: 5/6 + 8/3", "input": "", "output": "5/6 + 8/3 = 5/6 + 16/6 = 21/6 = 7/2"}
+{"instruction": "Add the fractions: 9/12 + 7/10", "input": "", "output": "9/12 + 7/10 = 45/60 + 42/60 = 87/60 = 29/20"}
+{"instruction": "Add the fractions: 1/11 + 9/3", "input": "", "output": "1/11 + 9/3 = 3/33 + 99/33 = 102/33 = 34/11"}
+{"instruction": "Add the fractions: 9/10 + 9/5", "input": "", "output": "9/10 + 9/5 = 9/10 + 18/10 = 27/10"}
+{"instruction": "Add the fractions: 3/7 + 9/8", "input": "", "output": "3/7 + 9/8 = 24/56 + 63/56 = 87/56"}
+{"instruction": "What percent is 51 of 70?", "input": "", "output": "51 of 70 = (51/70) × 100% = 72.9%"}
+{"instruction": "What percent is 27 of 109?", "input": "", "output": "27 of 109 = (27/109) × 100% = 24.8%"}
+{"instruction": "What percent is 55 of 80?", "input": "", "output": "55 of 80 = (55/80) × 100% = 68.8%"}
+{"instruction": "Find 18% of 130", "input": "", "output": "18% of 130 = (18/100) × 130 = 23.4"}
+{"instruction": "What percent is 50 of 180?", "input": "", "output": "50 of 180 = (50/180) × 100% = 27.8%"}
+{"instruction": "What percent is 45 of 163?", "input": "", "output": "45 of 163 = (45/163) × 100% = 27.6%"}
+{"instruction": "Find 62% of 350", "input": "", "output": "62% of 350 = (62/100) × 350 = 217.0"}
+{"instruction": "Find 70% of 70", "input": "", "output": "70% of 70 = (70/100) × 70 = 49.0"}
+{"instruction": "Find 26% of 328", "input": "", "output": "26% of 328 = (26/100) × 328 = 85.28"}
+{"instruction": "Find 29% of 213", "input": "", "output": "29% of 213 = (29/100) × 213 = 61.77"}
+{"instruction": "Find 16% of 132", "input": "", "output": "16% of 132 = (16/100) × 132 = 21.12"}
+{"instruction": "Find 30% of 234", "input": "", "output": "30% of 234 = (30/100) × 234 = 70.2"}
+{"instruction": "Find 10% of 273", "input": "", "output": "10% of 273 = (10/100) × 273 = 27.3"}
+{"instruction": "Find 80% of 463", "input": "", "output": "80% of 463 = (80/100) × 463 = 370.4"}
+{"instruction": "What percent is 63 of 120?", "input": "", "output": "63 of 120 = (63/120) × 100% = 52.5%"}
+{"instruction": "What percent is 19 of 80?", "input": "", "output": "19 of 80 = (19/80) × 100% = 23.8%"}
+{"instruction": "What percent is 78 of 145?", "input": "", "output": "78 of 145 = (78/145) × 100% = 53.8%"}
+{"instruction": "Find 32% of 98", "input": "", "output": "32% of 98 = (32/100) × 98 = 31.36"}
+{"instruction": "Find 93% of 326", "input": "", "output": "93% of 326 = (93/100) × 326 = 303.18"}
+{"instruction": "Find 46% of 246", "input": "", "output": "46% of 246 = (46/100) × 246 = 113.16"}
+{"instruction": "Find 39% of 229", "input": "", "output": "39% of 229 = (39/100) × 229 = 89.31"}
+{"instruction": "What percent is 69 of 176?", "input": "", "output": "69 of 176 = (69/176) × 100% = 39.2%"}
+{"instruction": "What percent is 76 of 163?", "input": "", "output": "76 of 163 = (76/163) × 100% = 46.6%"}
+{"instruction": "What percent is 72 of 129?", "input": "", "output": "72 of 129 = (72/129) × 100% = 55.8%"}
+{"instruction": "Find 20% of 358", "input": "", "output": "20% of 358 = (20/100) × 358 = 71.6"}
+{"instruction": "A train travels 240 miles in 4 hours. What is its average speed?", "input": "", "output": "Average speed = Distance ÷ Time = 240 miles ÷ 4 hours = 60 miles per hour"}
+{"instruction": "Sarah has 3 times as many apples as Tom. If Tom has 8 apples, how many does Sarah have?", "input": "", "output": "Sarah has 3 × 8 = 24 apples"}
+{"instruction": "A rectangle has a perimeter of 24 cm and a width of 4 cm. What is its length?", "input": "", "output": "Perimeter = 2(length + width)\n24 = 2(length + 4)\n24 = 2length + 8\n16 = 2length\nlength = 8 cm"}
+{"instruction": "If a shirt costs $25 and is on sale for 20% off, what is the sale price?", "input": "", "output": "Discount = 20% of $25 = 0.20 × $25 = $5\nSale price = $25 - $5 = $20"}
+{"instruction": "A car uses 1 gallon of gas to travel 25 miles. How many gallons are needed for a 175-mile trip?", "input": "", "output": "Gallons needed = 175 miles ÷ 25 miles/gallon = 7 gallons"}
+{"instruction": "John is currently 10 years old. How old was he 3 years ago?", "input": "", "output": "John was 10 - 3 = 7 years old"}
+{"instruction": "If 7 pencils cost $9 each, what is the total cost?", "input": "", "output": "Total cost = 7 × $9 = $63"}
+{"instruction": "A meeting starts at 12:00 AM and lasts 5 hours. What time does it end?", "input": "", "output": "End time = 12:00 AM + 5 hours = 17:00 PM"}
+{"instruction": "John is currently 19 years old. How old was he 8 years ago?", "input": "", "output": "John was 19 - 8 = 11 years old"}
+{"instruction": "If 3 pencils cost $4 each, what is the total cost?", "input": "", "output": "Total cost = 3 × $4 = $12"}
+{"instruction": "A meeting starts at 12:00 AM and lasts 5 hours. What time does it end?", "input": "", "output": "End time = 12:00 AM + 5 hours = 17:00 PM"}
+{"instruction": "John is currently 13 years old. How old was he 6 years ago?", "input": "", "output": "John was 13 - 6 = 7 years old"}
+{"instruction": "If 7 pencils cost $15 each, what is the total cost?", "input": "", "output": "Total cost = 7 × $15 = $105"}
+{"instruction": "A meeting starts at 10:00 AM and lasts 4 hours. What time does it end?", "input": "", "output": "End time = 10:00 AM + 4 hours = 14:00 PM"}
+{"instruction": "John is currently 13 years old. How old was he 7 years ago?", "input": "", "output": "John was 13 - 7 = 6 years old"}
+{"instruction": "If 3 pencils cost $14 each, what is the total cost?", "input": "", "output": "Total cost = 3 × $14 = $42"}
+{"instruction": "A meeting starts at 12:00 AM and lasts 4 hours. What time does it end?", "input": "", "output": "End time = 12:00 AM + 4 hours = 16:00 PM"}
+{"instruction": "John is currently 24 years old. How old was he 6 years ago?", "input": "", "output": "John was 24 - 6 = 18 years old"}
+{"instruction": "If 6 pencils cost $6 each, what is the total cost?", "input": "", "output": "Total cost = 6 × $6 = $36"}
+{"instruction": "A meeting starts at 14:00 AM and lasts 2 hours. What time does it end?", "input": "", "output": "End time = 14:00 AM + 2 hours = 16:00 PM"}
+{"instruction": "Solve the quadratic equation: x² - 5x + 6 = 0", "input": "", "output": "Using factoring: x² - 5x + 6 = (x - 2)(x - 3) = 0\nSolutions: x = 2 or x = 3"}
+{"instruction": "Find the vertex of the parabola y = x² - 4x + 3", "input": "", "output": "Vertex form: complete the square\ny = x² - 4x + 3 = (x - 2)² - 1\nVertex: (2, -1)"}
+{"instruction": "Simplify: (3x²y³)²", "input": "", "output": "(3x²y³)² = 9x⁴y⁶"}
+{"instruction": "Solve for x: log₂(x) = 3", "input": "", "output": "log₂(x) = 3 means 2³ = x, so x = 8"}
+{"instruction": "Find the inverse of f(x) = 2x + 3", "input": "", "output": "Let y = 2x + 3\nSolve for x: x = (y - 3)/2\nInverse: f⁻¹(x) = (x - 3)/2"}
+{"instruction": "Solve using the quadratic formula: 4x² + 4x + -2 = 0", "input": "", "output": "Using x = (-b ± √(b² - 4ac))/(2a)\nx = (-(4) ± √(4² - 4(4)(-2)))/(2(4))\nx = (-4 ± √48)/8"}
+{"instruction": "Solve using the quadratic formula: 5x² + -9x + -2 = 0", "input": "", "output": "Using x = (-b ± √(b² - 4ac))/(2a)\nx = (-(-9) ± √(-9² - 4(5)(-2)))/(2(5))\nx = (9 ± √121)/10"}
+{"instruction": "Solve using the quadratic formula: 5x² + -9x + 3 = 0", "input": "", "output": "Using x = (-b ± √(b² - 4ac))/(2a)\nx = (-(-9) ± √(-9² - 4(5)(3)))/(2(5))\nx = (9 ± √21)/10"}
+{"instruction": "Solve using the quadratic formula: 4x² + -5x + -2 = 0", "input": "", "output": "Using x = (-b ± √(b² - 4ac))/(2a)\nx = (-(-5) ± √(-5² - 4(4)(-2)))/(2(4))\nx = (5 ± √57)/8"}
+{"instruction": "Solve using the quadratic formula: 1x² + -7x + -2 = 0", "input": "", "output": "Using x = (-b ± √(b² - 4ac))/(2a)\nx = (-(-7) ± √(-7² - 4(1)(-2)))/(2(1))\nx = (7 ± √57)/2"}
+{"instruction": "Solve using the quadratic formula: 1x² + -7x + -6 = 0", "input": "", "output": "Using x = (-b ± √(b² - 4ac))/(2a)\nx = (-(-7) ± √(-7² - 4(1)(-6)))/(2(1))\nx = (7 ± √73)/2"}
+{"instruction": "Solve using the quadratic formula: 3x² + -2x + -11 = 0", "input": "", "output": "Using x = (-b ± √(b² - 4ac))/(2a)\nx = (-(-2) ± √(-2² - 4(3)(-11)))/(2(3))\nx = (2 ± √136)/6"}
+{"instruction": "Solve using the quadratic formula: 1x² + 9x + 4 = 0", "input": "", "output": "Using x = (-b ± √(b² - 4ac))/(2a)\nx = (-(9) ± √(9² - 4(1)(4)))/(2(1))\nx = (-9 ± √65)/2"}
+{"instruction": "Solve using the quadratic formula: 3x² + 4x + -4 = 0", "input": "", "output": "Using x = (-b ± √(b² - 4ac))/(2a)\nx = (-(4) ± √(4² - 4(3)(-4)))/(2(3))\nx = (-4 ± √64)/6"}
+{"instruction": "Solve using the quadratic formula: 5x² + -5x + -8 = 0", "input": "", "output": "Using x = (-b ± √(b² - 4ac))/(2a)\nx = (-(-5) ± √(-5² - 4(5)(-8)))/(2(5))\nx = (5 ± √185)/10"}
+{"instruction": "Find the surface area of a cube with side length 6 cm", "input": "", "output": "Surface area = 6s² = 6 × 6² = 6 × 36 = 216 cm²"}
+{"instruction": "Calculate the area of a triangle with base 12 cm and height 8 cm", "input": "", "output": "Area = (1/2) × base × height = (1/2) × 12 × 8 = 48 cm²"}
+{"instruction": "Find the circumference of a circle with diameter 14 cm", "input": "", "output": "Circumference = πd = π × 14 = 14π ≈ 43.98 cm"}
+{"instruction": "What is the area of a trapezoid with parallel sides 8 cm and 12 cm, and height 5 cm?", "input": "", "output": "Area = (1/2)(b₁ + b₂)h = (1/2)(8 + 12)(5) = (1/2)(20)(5) = 50 cm²"}
+{"instruction": "Find the area of a rectangle with length 19 cm and width 4 cm", "input": "", "output": "Area = length × width = 19 × 4 = 76 cm²"}
+{"instruction": "Calculate the area of a circle with radius 5 cm", "input": "", "output": "Area = πr² = π × 5² = 25π ≈ 78.54 cm²"}
+{"instruction": "Find the volume of a rectangular prism with dimensions 3 × 10 × 5 cm", "input": "", "output": "Volume = length × width × height = 3 × 10 × 5 = 150 cm³"}
+{"instruction": "Find the area of a rectangle with length 18 cm and width 15 cm", "input": "", "output": "Area = length × width = 18 × 15 = 270 cm²"}
+{"instruction": "Calculate the area of a circle with radius 12 cm", "input": "", "output": "Area = πr² = π × 12² = 144π ≈ 452.39 cm²"}
+{"instruction": "Find the volume of a rectangular prism with dimensions 9 × 9 × 9 cm", "input": "", "output": "Volume = length × width × height = 9 × 9 × 9 = 729 cm³"}
+{"instruction": "Find the area of a rectangle with length 16 cm and width 9 cm", "input": "", "output": "Area = length × width = 16 × 9 = 144 cm²"}
+{"instruction": "Calculate the area of a circle with radius 6 cm", "input": "", "output": "Area = πr² = π × 6² = 36π ≈ 113.10 cm²"}
+{"instruction": "Find the volume of a rectangular prism with dimensions 8 × 8 × 4 cm", "input": "", "output": "Volume = length × width × height = 8 × 8 × 4 = 256 cm³"}
+{"instruction": "Find the area of a rectangle with length 9 cm and width 5 cm", "input": "", "output": "Area = length × width = 9 × 5 = 45 cm²"}
+{"instruction": "Calculate the area of a circle with radius 12 cm", "input": "", "output": "Area = πr² = π × 12² = 144π ≈ 452.39 cm²"}
+{"instruction": "Find the volume of a rectangular prism with dimensions 7 × 4 × 8 cm", "input": "", "output": "Volume = length × width × height = 7 × 4 × 8 = 224 cm³"}
+{"instruction": "Find the area of a rectangle with length 11 cm and width 13 cm", "input": "", "output": "Area = length × width = 11 × 13 = 143 cm²"}
+{"instruction": "Calculate the area of a circle with radius 5 cm", "input": "", "output": "Area = πr² = π × 5² = 25π ≈ 78.54 cm²"}
+{"instruction": "Find the volume of a rectangular prism with dimensions 6 × 10 × 3 cm", "input": "", "output": "Volume = length × width × height = 6 × 10 × 3 = 180 cm³"}
+{"instruction": "Find the area of a rectangle with length 20 cm and width 14 cm", "input": "", "output": "Area = length × width = 20 × 14 = 280 cm²"}
+{"instruction": "Calculate the area of a circle with radius 3 cm", "input": "", "output": "Area = πr² = π × 3² = 9π ≈ 28.27 cm²"}
+{"instruction": "Find the volume of a rectangular prism with dimensions 7 × 5 × 8 cm", "input": "", "output": "Volume = length × width × height = 7 × 5 × 8 = 280 cm³"}
+{"instruction": "Find the area of a rectangle with length 14 cm and width 3 cm", "input": "", "output": "Area = length × width = 14 × 3 = 42 cm²"}
+{"instruction": "Calculate the area of a circle with radius 9 cm", "input": "", "output": "Area = πr² = π × 9² = 81π ≈ 254.47 cm²"}
+{"instruction": "What is the probability of rolling a 6 on a standard die?", "input": "", "output": "Probability = Favorable outcomes / Total outcomes = 1/6 ≈ 0.167"}
+{"instruction": "How many ways can you arrange the letters in the word 'CAT'?", "input": "", "output": "Number of arrangements = 3! = 3 × 2 × 1 = 6 ways"}
+{"instruction": "What is the probability of drawing a red card from a standard deck?", "input": "", "output": "Red cards = 26, Total cards = 52\nProbability = 26/52 = 1/2 = 0.5"}
+{"instruction": "Find the number of combinations of choosing 3 items from 5 items", "input": "", "output": "C(5,3) = 5!/(3!(5-3)!) = 5!/(3!2!) = (5×4)/(2×1) = 10"}
+{"instruction": "If you flip a coin 3 times and get 2 heads, what is the experimental probability of heads?", "input": "", "output": "Experimental probability = 2/3 = 0.667"}
+{"instruction": "What is the probability of drawing a card with value 5 from a standard deck?", "input": "", "output": "There are 4 cards with value 5 out of 52 total cards\nProbability = 4/52 = 1/13 ≈ 0.077"}
+{"instruction": "If you flip a coin 4 times and get 3 heads, what is the experimental probability of heads?", "input": "", "output": "Experimental probability = 3/4 = 0.750"}
+{"instruction": "What is the probability of drawing a card with value 10 from a standard deck?", "input": "", "output": "There are 4 cards with value 10 out of 52 total cards\nProbability = 4/52 = 1/13 ≈ 0.077"}
+{"instruction": "If you flip a coin 4 times and get 3 heads, what is the experimental probability of heads?", "input": "", "output": "Experimental probability = 3/4 = 0.750"}
+{"instruction": "What is the probability of drawing a card with value 6 from a standard deck?", "input": "", "output": "There are 4 cards with value 6 out of 52 total cards\nProbability = 4/52 = 1/13 ≈ 0.077"}
+{"instruction": "If you flip a coin 2 times and get 2 heads, what is the experimental probability of heads?", "input": "", "output": "Experimental probability = 2/2 = 1.000"}
+{"instruction": "What is the probability of drawing a card with value 6 from a standard deck?", "input": "", "output": "There are 4 cards with value 6 out of 52 total cards\nProbability = 4/52 = 1/13 ≈ 0.077"}
+{"instruction": "If you flip a coin 3 times and get 1 heads, what is the experimental probability of heads?", "input": "", "output": "Experimental probability = 1/3 = 0.333"}
+{"instruction": "What is the probability of drawing a card with value 1 from a standard deck?", "input": "", "output": "There are 4 cards with value 1 out of 52 total cards\nProbability = 4/52 = 1/13 ≈ 0.077"}
+{"instruction": "If you flip a coin 5 times and get 1 heads, what is the experimental probability of heads?", "input": "", "output": "Experimental probability = 1/5 = 0.200"}
+{"instruction": "What is the probability of drawing a card with value 4 from a standard deck?", "input": "", "output": "There are 4 cards with value 4 out of 52 total cards\nProbability = 4/52 = 1/13 ≈ 0.077"}
+{"instruction": "If you flip a coin 3 times and get 2 heads, what is the experimental probability of heads?", "input": "", "output": "Experimental probability = 2/3 = 0.667"}
+{"instruction": "What is the probability of drawing a card with value 2 from a standard deck?", "input": "", "output": "There are 4 cards with value 2 out of 52 total cards\nProbability = 4/52 = 1/13 ≈ 0.077"}
+{"instruction": "If you flip a coin 5 times and get 5 heads, what is the experimental probability of heads?", "input": "", "output": "Experimental probability = 5/5 = 1.000"}
+{"instruction": "Define what a prime number is", "input": "", "output": "A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself."}
+{"instruction": "What is the difference between mean and median?", "input": "", "output": "Mean is the average of all values (sum divided by count). Median is the middle value when data is arranged in order."}
+{"instruction": "Explain what a function is in mathematics", "input": "", "output": "A function is a relation that assigns exactly one output value to each input value. It can be written as f(x) = y."}
+{"instruction": "What does it mean for two lines to be parallel?", "input": "", "output": "Two lines are parallel if they lie in the same plane and never intersect. They have the same slope."}
+{"instruction": "Define the Pythagorean theorem", "input": "", "output": "The Pythagorean theorem states that in a right triangle, the square of the hypotenuse equals the sum of squares of the other two sides: a² + b² = c²"}
+{"instruction": "What is an integer?", "input": "", "output": "An integer is any whole number, including positive numbers, negative numbers, and zero (..., -2, -1, 0, 1, 2, ...)"}
+{"instruction": "Define absolute value", "input": "", "output": "The absolute value of a number is its distance from zero on the number line, always positive. |x| represents absolute value."}
+{"instruction": "What is a rational number?", "input": "", "output": "A rational number is any number that can be expressed as a fraction p/q where p and q are integers and q ≠ 0."}
+{"instruction": "Explain what slope means", "input": "", "output": "Slope measures the steepness of a line, calculated as rise over run: (change in y)/(change in x)."}
+{"instruction": "What is the order of operations?", "input": "", "output": "The order of operations is PEMDAS: Parentheses, Exponents, Multiplication/Division (left to right), Addition/Subtraction (left to right)."}
+{"instruction": "Simplify: x³ · x⁵", "input": "", "output": "x³ · x⁵ = x³⁺⁵ = x⁸"}
+{"instruction": "Simplify: (a²)⁴", "input": "", "output": "(a²)⁴ = a²·⁴ = a⁸"}
+{"instruction": "Simplify: x⁶/x²", "input": "", "output": "x⁶/x² = x⁶⁻² = x⁴"}
+{"instruction": "Evaluate: 2⁰", "input": "", "output": "Any number (except 0) raised to the power 0 equals 1, so 2⁰ = 1"}
+{"instruction": "Simplify: (3x²y)³", "input": "", "output": "(3x²y)³ = 3³ · (x²)³ · y³ = 27x⁶y³"}
+{"instruction": "Solve for x: 4x + 16 = 48", "input": "", "output": "4x + 16 = 48\n4x = 48 - 16\n4x = 32\nx = 8"}
+{"instruction": "Solve for x: 2x + 4 = 38", "input": "", "output": "2x + 4 = 38\n2x = 38 - 4\n2x = 34\nx = 17"}
+{"instruction": "Solve for x: 7x + 1 = 29", "input": "", "output": "7x + 1 = 29\n7x = 29 - 1\n7x = 28\nx = 4"}
+{"instruction": "Solve for x: 3x + 9 = 27", "input": "", "output": "3x + 9 = 27\n3x = 27 - 9\n3x = 18\nx = 6"}
+{"instruction": "Solve for x: 6x + 14 = 50", "input": "", "output": "6x + 14 = 50\n6x = 50 - 14\n6x = 36\nx = 6"}
+{"instruction": "Solve for x: 2x + 7 = 29", "input": "", "output": "2x + 7 = 29\n2x = 29 - 7\n2x = 22\nx = 11"}
+{"instruction": "Convert 3 feet to inches", "input": "", "output": "3 feet × 12 inches/foot = 36 inches"}
+{"instruction": "Convert 2.5 kilometers to meters", "input": "", "output": "2.5 km × 1000 m/km = 2500 meters"}
+{"instruction": "Convert 72 inches to feet", "input": "", "output": "72 inches ÷ 12 inches/foot = 6 feet"}
+{"instruction": "Convert 5 hours to minutes", "input": "", "output": "5 hours × 60 minutes/hour = 300 minutes"}
+{"instruction": "Convert 1500 grams to kilograms", "input": "", "output": "1500 grams ÷ 1000 grams/kg = 1.5 kg"}
+{"instruction": "Convert 11 feet to inches", "input": "", "output": "11 feet × 12 inches/foot = 132 inches"}
+{"instruction": "Convert 7 hours to minutes", "input": "", "output": "7 hours × 60 minutes/hour = 420 minutes"}
+{"instruction": "Convert 6 kilograms to grams", "input": "", "output": "6 kg × 1000 g/kg = 6000 grams"}
+{"instruction": "Convert 14 feet to inches", "input": "", "output": "14 feet × 12 inches/foot = 168 inches"}
+{"instruction": "Convert 6 hours to minutes", "input": "", "output": "6 hours × 60 minutes/hour = 360 minutes"}
+{"instruction": "Convert 3 kilograms to grams", "input": "", "output": "3 kg × 1000 g/kg = 3000 grams"}
+{"instruction": "Convert 9 feet to inches", "input": "", "output": "9 feet × 12 inches/foot = 108 inches"}
+{"instruction": "Convert 6 hours to minutes", "input": "", "output": "6 hours × 60 minutes/hour = 360 minutes"}
+{"instruction": "Convert 5 kilograms to grams", "input": "", "output": "5 kg × 1000 g/kg = 5000 grams"}
+{"instruction": "Convert 12 feet to inches", "input": "", "output": "12 feet × 12 inches/foot = 144 inches"}
+{"instruction": "Convert 6 hours to minutes", "input": "", "output": "6 hours × 60 minutes/hour = 360 minutes"}
+{"instruction": "Convert 9 kilograms to grams", "input": "", "output": "9 kg × 1000 g/kg = 9000 grams"}
+{"instruction": "Convert 17 feet to inches", "input": "", "output": "17 feet × 12 inches/foot = 204 inches"}
+{"instruction": "Convert 4 hours to minutes", "input": "", "output": "4 hours × 60 minutes/hour = 240 minutes"}
+{"instruction": "Convert 3 kilograms to grams", "input": "", "output": "3 kg × 1000 g/kg = 3000 grams"}
+{"instruction": "Find the next term in the sequence: 2, 4, 6, 8, ...", "input": "", "output": "This is an arithmetic sequence with common difference 2. Next term: 8 + 2 = 10"}
+{"instruction": "Find the 10th term of the arithmetic sequence: 3, 7, 11, 15, ...", "input": "", "output": "First term a₁ = 3, common difference d = 4\naₙ = a₁ + (n-1)d\na₁₀ = 3 + (10-1)4 = 3 + 36 = 39"}
+{"instruction": "What is the sum of the first 5 terms of the sequence: 1, 3, 5, 7, 9?", "input": "", "output": "Sum = 1 + 3 + 5 + 7 + 9 = 25"}
+{"instruction": "Find the pattern: 1, 4, 9, 16, 25, ...", "input": "", "output": "These are perfect squares: 1², 2², 3², 4², 5², ... Next term would be 6² = 36"}
+{"instruction": "Find the 8th term of the arithmetic sequence starting with 2 and common difference 7", "input": "", "output": "Using aₙ = a₁ + (n-1)d\na₁ = 2, d = 7, n = 8\na8 = 2 + (8-1)7 = 2 + 49 = 51"}
+{"instruction": "Find the 5th term of the arithmetic sequence starting with 7 and common difference 8", "input": "", "output": "Using aₙ = a₁ + (n-1)d\na₁ = 7, d = 8, n = 5\na5 = 7 + (5-1)8 = 7 + 32 = 39"}
+{"instruction": "Find the 8th term of the arithmetic sequence starting with 7 and common difference 4", "input": "", "output": "Using aₙ = a₁ + (n-1)d\na₁ = 7, d = 4, n = 8\na8 = 7 + (8-1)4 = 7 + 28 = 35"}
+{"instruction": "Find the 7th term of the arithmetic sequence starting with 4 and common difference 2", "input": "", "output": "Using aₙ = a₁ + (n-1)d\na₁ = 4, d = 2, n = 7\na7 = 4 + (7-1)2 = 4 + 12 = 16"}
+{"instruction": "Find the 9th term of the arithmetic sequence starting with 10 and common difference 6", "input": "", "output": "Using aₙ = a₁ + (n-1)d\na₁ = 10, d = 6, n = 9\na9 = 10 + (9-1)6 = 10 + 48 = 58"}
+{"instruction": "Find the 6th term of the arithmetic sequence starting with 7 and common difference 6", "input": "", "output": "Using aₙ = a₁ + (n-1)d\na₁ = 7, d = 6, n = 6\na6 = 7 + (6-1)6 = 7 + 30 = 37"}
+{"instruction": "Find the 9th term of the arithmetic sequence starting with 6 and common difference 2", "input": "", "output": "Using aₙ = a₁ + (n-1)d\na₁ = 6, d = 2, n = 9\na9 = 6 + (9-1)2 = 6 + 16 = 22"}
+{"instruction": "Find the 8th term of the arithmetic sequence starting with 2 and common difference 5", "input": "", "output": "Using aₙ = a₁ + (n-1)d\na₁ = 2, d = 5, n = 8\na8 = 2 + (8-1)5 = 2 + 35 = 37"}
+{"instruction": "Find the 9th term of the arithmetic sequence starting with 5 and common difference 8", "input": "", "output": "Using aₙ = a₁ + (n-1)d\na₁ = 5, d = 8, n = 9\na9 = 5 + (9-1)8 = 5 + 64 = 69"}
+{"instruction": "Find the 8th term of the arithmetic sequence starting with 10 and common difference 5", "input": "", "output": "Using aₙ = a₁ + (n-1)d\na₁ = 10, d = 5, n = 8\na8 = 10 + (8-1)5 = 10 + 35 = 45"}
+{"instruction": "Find the 6th term of the arithmetic sequence starting with 8 and common difference 8", "input": "", "output": "Using aₙ = a₁ + (n-1)d\na₁ = 8, d = 8, n = 6\na6 = 8 + (6-1)8 = 8 + 40 = 48"}
+{"instruction": "Find the 7th term of the arithmetic sequence starting with 10 and common difference 7", "input": "", "output": "Using aₙ = a₁ + (n-1)d\na₁ = 10, d = 7, n = 7\na7 = 10 + (7-1)7 = 10 + 42 = 52"}
+{"instruction": "Find the 5th term of the arithmetic sequence starting with 2 and common difference 5", "input": "", "output": "Using aₙ = a₁ + (n-1)d\na₁ = 2, d = 5, n = 5\na5 = 2 + (5-1)5 = 2 + 20 = 22"}
+{"instruction": "Find the 6th term of the arithmetic sequence starting with 3 and common difference 5", "input": "", "output": "Using aₙ = a₁ + (n-1)d\na₁ = 3, d = 5, n = 6\na6 = 3 + (6-1)5 = 3 + 25 = 28"}
+{"instruction": "Find the 8th term of the arithmetic sequence starting with 5 and common difference 4", "input": "", "output": "Using aₙ = a₁ + (n-1)d\na₁ = 5, d = 4, n = 8\na8 = 5 + (8-1)4 = 5 + 28 = 33"}
+{"instruction": "Calculate the mean of: 3, 7, 9, 15, 15, 16, 20", "input": "", "output": "Mean = (3+7+9+15+15+16+20)/7 = 85/7 = 12.14"}
+{"instruction": "Calculate the mean of: 1, 5, 10, 15, 15, 18", "input": "", "output": "Mean = (1+5+10+15+15+18)/6 = 64/6 = 10.67"}
+{"instruction": "Calculate the mean of: 2, 5, 9, 9, 10, 13, 14, 20", "input": "", "output": "Mean = (2+5+9+9+10+13+14+20)/8 = 82/8 = 10.25"}
+{"instruction": "Calculate the mean of: 3, 7, 8, 9, 13, 17", "input": "", "output": "Mean = (3+7+8+9+13+17)/6 = 57/6 = 9.50"}
+{"instruction": "Calculate the mean of: 1, 2, 8, 9, 12, 14", "input": "", "output": "Mean = (1+2+8+9+12+14)/6 = 46/6 = 7.67"}
+{"instruction": "Find the median of: 6, 7, 11, 11, 14, 15, 16", "input": "", "output": "Arranged in order: 6, 7, 11, 11, 14, 15, 16\nMedian = 11"}
+{"instruction": "Calculate the range of: 1, 6, 9, 9, 9, 14, 14, 19", "input": "", "output": "Range = Maximum - Minimum = 19 - 1 = 18"}
+{"instruction": "Find the median of: 1, 5, 10, 10, 15, 16, 18, 20", "input": "", "output": "Arranged in order: 1, 5, 10, 10, 15, 16, 18, 20\nMedian = 12.5"}
+{"instruction": "Find the median of: 3, 5, 6, 10, 12, 20, 20", "input": "", "output": "Arranged in order: 3, 5, 6, 10, 12, 20, 20\nMedian = 10"}
+{"instruction": "Find the median of: 2, 10, 14, 20, 20", "input": "", "output": "Arranged in order: 2, 10, 14, 20, 20\nMedian = 14"}
+{"instruction": "Find the median of: 5, 8, 10, 11, 11, 16, 16", "input": "", "output": "Arranged in order: 5, 8, 10, 11, 11, 16, 16\nMedian = 11"}
+{"instruction": "Calculate the mean of: 3, 7, 13, 13, 17, 19", "input": "", "output": "Mean = (3+7+13+13+17+19)/6 = 72/6 = 12.00"}
+{"instruction": "Find the median of: 16, 17, 17, 18, 18", "input": "", "output": "Arranged in order: 16, 17, 17, 18, 18\nMedian = 17"}
+{"instruction": "Calculate the range of: 2, 7, 8, 15, 18", "input": "", "output": "Range = Maximum - Minimum = 18 - 2 = 16"}
+{"instruction": "Calculate the mean of: 1, 2, 13, 16, 18, 19", "input": "", "output": "Mean = (1+2+13+16+18+19)/6 = 69/6 = 11.50"}
+{"instruction": "Calculate the range of: 1, 9, 11, 12, 20", "input": "", "output": "Range = Maximum - Minimum = 20 - 1 = 19"}
+{"instruction": "Find the median of: 6, 11, 17, 18, 18", "input": "", "output": "Arranged in order: 6, 11, 17, 18, 18\nMedian = 17"}
+{"instruction": "Find the median of: 2, 4, 8, 12, 14, 14, 14, 17", "input": "", "output": "Arranged in order: 2, 4, 8, 12, 14, 14, 14, 17\nMedian = 13.0"}
+{"instruction": "Find the median of: 6, 7, 9, 11, 13, 20", "input": "", "output": "Arranged in order: 6, 7, 9, 11, 13, 20\nMedian = 10.0"}
+{"instruction": "Calculate the mean of: 3, 3, 4, 5, 14, 15, 18, 19", "input": "", "output": "Mean = (3+3+4+5+14+15+18+19)/8 = 81/8 = 10.12"}
+{"instruction": "Compute 75 + 25", "input": "", "output": "75 + 25 = 100"}
+{"instruction": "Compute 60 + 64", "input": "", "output": "60 + 64 = 124"}
+{"instruction": "Compute 17 + 85", "input": "", "output": "17 + 85 = 102"}
+{"instruction": "Compute 73 + 40", "input": "", "output": "73 + 40 = 113"}
+{"instruction": "Compute 89 + 55", "input": "", "output": "89 + 55 = 144"}
+{"instruction": "Compute 35 + 84", "input": "", "output": "35 + 84 = 119"}
+{"instruction": "Compute 55 - 42", "input": "", "output": "55 - 42 = 13"}
+{"instruction": "Compute 58 + 39", "input": "", "output": "58 + 39 = 97"}
+{"instruction": "Compute 71 + 99", "input": "", "output": "71 + 99 = 170"}
+{"instruction": "Compute 59 - 24", "input": "", "output": "59 - 24 = 35"}
+{"instruction": "Compute 82 + 52", "input": "", "output": "82 + 52 = 134"}
+{"instruction": "Compute 45 - 28", "input": "", "output": "45 - 28 = 17"}
+{"instruction": "Compute 35 + 41", "input": "", "output": "35 + 41 = 76"}
+{"instruction": "Compute 54 + 53", "input": "", "output": "54 + 53 = 107"}
+{"instruction": "Compute 46 + 56", "input": "", "output": "46 + 56 = 102"}
+{"instruction": "Compute 64 - 59", "input": "", "output": "64 - 59 = 5"}
+{"instruction": "Compute 71 - 30", "input": "", "output": "71 - 30 = 41"}
+{"instruction": "Compute 65 - 31", "input": "", "output": "65 - 31 = 34"}
+{"instruction": "Compute 94 - 38", "input": "", "output": "94 - 38 = 56"}
+{"instruction": "Compute 70 + 36", "input": "", "output": "70 + 36 = 106"}
+{"instruction": "Compute 15 + 31", "input": "", "output": "15 + 31 = 46"}
+{"instruction": "Compute 48 + 83", "input": "", "output": "48 + 83 = 131"}
+{"instruction": "Compute 29 + 28", "input": "", "output": "29 + 28 = 57"}
+{"instruction": "Compute 82 - 49", "input": "", "output": "82 - 49 = 33"}
+{"instruction": "Compute 67 - 27", "input": "", "output": "67 - 27 = 40"}
+{"instruction": "Compute 71 + 25", "input": "", "output": "71 + 25 = 96"}
+{"instruction": "Compute 75 + 67", "input": "", "output": "75 + 67 = 142"}
+{"instruction": "Compute 89 - 11", "input": "", "output": "89 - 11 = 78"}
+{"instruction": "Compute 45 + 37", "input": "", "output": "45 + 37 = 82"}
+{"instruction": "Compute 86 + 22", "input": "", "output": "86 + 22 = 108"}
+{"instruction": "Compute 67 - 65", "input": "", "output": "67 - 65 = 2"}
+{"instruction": "Compute 46 + 20", "input": "", "output": "46 + 20 = 66"}
+{"instruction": "Compute 15 + 35", "input": "", "output": "15 + 35 = 50"}
+{"instruction": "Compute 97 + 35", "input": "", "output": "97 + 35 = 132"}
+{"instruction": "Compute 65 - 41", "input": "", "output": "65 - 41 = 24"}
+{"instruction": "Compute 85 - 68", "input": "", "output": "85 - 68 = 17"}
+{"instruction": "Compute 57 + 93", "input": "", "output": "57 + 93 = 150"}
+{"instruction": "Compute 41 + 37", "input": "", "output": "41 + 37 = 78"}
+{"instruction": "Compute 82 - 18", "input": "", "output": "82 - 18 = 64"}
+{"instruction": "Compute 57 + 94", "input": "", "output": "57 + 94 = 151"}
+{"instruction": "Compute 51 + 97", "input": "", "output": "51 + 97 = 148"}
+{"instruction": "Compute 25 + 73", "input": "", "output": "25 + 73 = 98"}
+{"instruction": "Compute 40 + 65", "input": "", "output": "40 + 65 = 105"}
+{"instruction": "Compute 76 - 30", "input": "", "output": "76 - 30 = 46"}
+{"instruction": "Compute 19 + 61", "input": "", "output": "19 + 61 = 80"}
+{"instruction": "Compute 34 - 19", "input": "", "output": "34 - 19 = 15"}
+{"instruction": "Compute 99 - 48", "input": "", "output": "99 - 48 = 51"}
+{"instruction": "Compute 20 + 50", "input": "", "output": "20 + 50 = 70"}
+{"instruction": "Compute 73 + 48", "input": "", "output": "73 + 48 = 121"}
+{"instruction": "Compute 35 - 23", "input": "", "output": "35 - 23 = 12"}
+{"instruction": "Compute 47 - 22", "input": "", "output": "47 - 22 = 25"}
+{"instruction": "Compute 86 - 37", "input": "", "output": "86 - 37 = 49"}
+{"instruction": "Compute 77 + 58", "input": "", "output": "77 + 58 = 135"}
+{"instruction": "Compute 100 + 42", "input": "", "output": "100 + 42 = 142"}
+{"instruction": "Compute 69 - 18", "input": "", "output": "69 - 18 = 51"}
+{"instruction": "Compute 78 - 41", "input": "", "output": "78 - 41 = 37"}
+{"instruction": "Compute 39 + 31", "input": "", "output": "39 + 31 = 70"}
+{"instruction": "Compute 85 - 60", "input": "", "output": "85 - 60 = 25"}
+{"instruction": "Compute 62 - 60", "input": "", "output": "62 - 60 = 2"}
+{"instruction": "Compute 47 + 61", "input": "", "output": "47 + 61 = 108"}
+{"instruction": "Compute 83 - 53", "input": "", "output": "83 - 53 = 30"}
+{"instruction": "Compute 95 - 90", "input": "", "output": "95 - 90 = 5"}
+{"instruction": "Compute 72 - 58", "input": "", "output": "72 - 58 = 14"}
+{"instruction": "Compute 86 - 80", "input": "", "output": "86 - 80 = 6"}
+{"instruction": "Compute 50 - 33", "input": "", "output": "50 - 33 = 17"}
+{"instruction": "Compute 65 - 46", "input": "", "output": "65 - 46 = 19"}
+{"instruction": "Compute 45 + 92", "input": "", "output": "45 + 92 = 137"}
+{"instruction": "Compute 84 - 26", "input": "", "output": "84 - 26 = 58"}
+{"instruction": "Compute 12 + 73", "input": "", "output": "12 + 73 = 85"}
+{"instruction": "Compute 37 - 21", "input": "", "output": "37 - 21 = 16"}
+{"instruction": "Compute 69 - 51", "input": "", "output": "69 - 51 = 18"}
+{"instruction": "Compute 40 + 26", "input": "", "output": "40 + 26 = 66"}
+{"instruction": "Compute 55 + 21", "input": "", "output": "55 + 21 = 76"}
+{"instruction": "Compute 95 - 18", "input": "", "output": "95 - 18 = 77"}
+{"instruction": "Compute 90 - 57", "input": "", "output": "90 - 57 = 33"}
+{"instruction": "Compute 78 - 31", "input": "", "output": "78 - 31 = 47"}
+{"instruction": "Compute 27 - 19", "input": "", "output": "27 - 19 = 8"}
+{"instruction": "Compute 71 - 68", "input": "", "output": "71 - 68 = 3"}
+{"instruction": "Compute 87 - 72", "input": "", "output": "87 - 72 = 15"}
+{"instruction": "Compute 70 + 13", "input": "", "output": "70 + 13 = 83"}
+{"instruction": "Compute 98 + 15", "input": "", "output": "98 + 15 = 113"}
+{"instruction": "Compute 38 + 18", "input": "", "output": "38 + 18 = 56"}
+{"instruction": "Compute 52 - 40", "input": "", "output": "52 - 40 = 12"}
+{"instruction": "Compute 62 - 57", "input": "", "output": "62 - 57 = 5"}
+{"instruction": "Compute 69 + 52", "input": "", "output": "69 + 52 = 121"}
+{"instruction": "Compute 16 + 21", "input": "", "output": "16 + 21 = 37"}
+{"instruction": "Compute 88 + 60", "input": "", "output": "88 + 60 = 148"}
+{"instruction": "Compute 85 + 37", "input": "", "output": "85 + 37 = 122"}
+{"instruction": "Compute 29 + 72", "input": "", "output": "29 + 72 = 101"}
+{"instruction": "Compute 22 + 21", "input": "", "output": "22 + 21 = 43"}
+{"instruction": "Compute 29 + 83", "input": "", "output": "29 + 83 = 112"}
+{"instruction": "Compute 63 + 58", "input": "", "output": "63 + 58 = 121"}
+{"instruction": "Compute 56 + 75", "input": "", "output": "56 + 75 = 131"}
+{"instruction": "Compute 96 + 52", "input": "", "output": "96 + 52 = 148"}
+{"instruction": "Compute 16 + 45", "input": "", "output": "16 + 45 = 61"}
+{"instruction": "Compute 96 + 84", "input": "", "output": "96 + 84 = 180"}
+{"instruction": "Compute 87 - 13", "input": "", "output": "87 - 13 = 74"}
+{"instruction": "Compute 13 + 21", "input": "", "output": "13 + 21 = 34"}
+{"instruction": "Compute 15 + 62", "input": "", "output": "15 + 62 = 77"}
+{"instruction": "Compute 67 - 55", "input": "", "output": "67 - 55 = 12"}
+{"instruction": "Compute 83 + 37", "input": "", "output": "83 + 37 = 120"}
+{"instruction": "Compute 36 + 29", "input": "", "output": "36 + 29 = 65"}
+{"instruction": "Compute 75 + 10", "input": "", "output": "75 + 10 = 85"}
+{"instruction": "Compute 77 - 47", "input": "", "output": "77 - 47 = 30"}
+{"instruction": "Compute 54 + 76", "input": "", "output": "54 + 76 = 130"}
+{"instruction": "Compute 69 - 66", "input": "", "output": "69 - 66 = 3"}
+{"instruction": "Compute 25 + 76", "input": "", "output": "25 + 76 = 101"}
+{"instruction": "Compute 71 - 19", "input": "", "output": "71 - 19 = 52"}
+{"instruction": "Compute 82 - 78", "input": "", "output": "82 - 78 = 4"}
+{"instruction": "Compute 74 - 59", "input": "", "output": "74 - 59 = 15"}
+{"instruction": "Compute 11 + 55", "input": "", "output": "11 + 55 = 66"}
+{"instruction": "Compute 89 + 90", "input": "", "output": "89 + 90 = 179"}
+{"instruction": "Compute 74 + 30", "input": "", "output": "74 + 30 = 104"}
+{"instruction": "Compute 100 - 43", "input": "", "output": "100 - 43 = 57"}
+{"instruction": "Compute 88 - 35", "input": "", "output": "88 - 35 = 53"}
+{"instruction": "Compute 32 + 16", "input": "", "output": "32 + 16 = 48"}
+{"instruction": "Compute 69 - 16", "input": "", "output": "69 - 16 = 53"}
+{"instruction": "Compute 36 + 24", "input": "", "output": "36 + 24 = 60"}
+{"instruction": "Compute 26 + 50", "input": "", "output": "26 + 50 = 76"}
+{"instruction": "Compute 55 + 40", "input": "", "output": "55 + 40 = 95"}
+{"instruction": "Compute 100 - 66", "input": "", "output": "100 - 66 = 34"}
+{"instruction": "Compute 30 + 22", "input": "", "output": "30 + 22 = 52"}
+{"instruction": "Compute 70 + 98", "input": "", "output": "70 + 98 = 168"}
+{"instruction": "Compute 80 - 52", "input": "", "output": "80 - 52 = 28"}
+{"instruction": "Compute 15 - 15", "input": "", "output": "15 - 15 = 0"}
+{"instruction": "Compute 25 + 28", "input": "", "output": "25 + 28 = 53"}
+{"instruction": "Compute 92 - 17", "input": "", "output": "92 - 17 = 75"}
+{"instruction": "Compute 62 - 50", "input": "", "output": "62 - 50 = 12"}
+{"instruction": "Compute 71 - 56", "input": "", "output": "71 - 56 = 15"}
+{"instruction": "Compute 88 + 77", "input": "", "output": "88 + 77 = 165"}
+{"instruction": "Compute 47 + 78", "input": "", "output": "47 + 78 = 125"}
+{"instruction": "Compute 100 - 85", "input": "", "output": "100 - 85 = 15"}
+{"instruction": "Compute 100 - 13", "input": "", "output": "100 - 13 = 87"}
+{"instruction": "Compute 36 + 73", "input": "", "output": "36 + 73 = 109"}
+{"instruction": "Compute 80 - 44", "input": "", "output": "80 - 44 = 36"}
+{"instruction": "Compute 82 + 13", "input": "", "output": "82 + 13 = 95"}
+{"instruction": "Compute 97 - 73", "input": "", "output": "97 - 73 = 24"}
+{"instruction": "Compute 48 + 21", "input": "", "output": "48 + 21 = 69"}
+{"instruction": "Compute 93 - 53", "input": "", "output": "93 - 53 = 40"}
+{"instruction": "Compute 75 + 11", "input": "", "output": "75 + 11 = 86"}
+{"instruction": "Compute 41 - 37", "input": "", "output": "41 - 37 = 4"}
+{"instruction": "Compute 59 + 68", "input": "", "output": "59 + 68 = 127"}
+{"instruction": "Compute 30 + 87", "input": "", "output": "30 + 87 = 117"}
+{"instruction": "Compute 61 - 26", "input": "", "output": "61 - 26 = 35"}
+{"instruction": "Compute 83 - 31", "input": "", "output": "83 - 31 = 52"}
+{"instruction": "Compute 75 + 50", "input": "", "output": "75 + 50 = 125"}
+{"instruction": "Compute 90 - 85", "input": "", "output": "90 - 85 = 5"}
+{"instruction": "Compute 48 + 17", "input": "", "output": "48 + 17 = 65"}
+{"instruction": "Compute 44 - 31", "input": "", "output": "44 - 31 = 13"}
+{"instruction": "Compute 90 - 16", "input": "", "output": "90 - 16 = 74"}
+{"instruction": "Compute 48 + 68", "input": "", "output": "48 + 68 = 116"}
+{"instruction": "Compute 78 - 45", "input": "", "output": "78 - 45 = 33"}
+{"instruction": "Compute 94 - 36", "input": "", "output": "94 - 36 = 58"}
+{"instruction": "Compute 74 - 53", "input": "", "output": "74 - 53 = 21"}
+{"instruction": "Compute 67 - 30", "input": "", "output": "67 - 30 = 37"}
+{"instruction": "Compute 77 - 29", "input": "", "output": "77 - 29 = 48"}
+{"instruction": "Compute 27 + 87", "input": "", "output": "27 + 87 = 114"}
+{"instruction": "Compute 93 - 54", "input": "", "output": "93 - 54 = 39"}
+{"instruction": "Compute 59 - 14", "input": "", "output": "59 - 14 = 45"}
+{"instruction": "Compute 78 + 31", "input": "", "output": "78 + 31 = 109"}
+{"instruction": "Compute 53 + 57", "input": "", "output": "53 + 57 = 110"}
+{"instruction": "Compute 56 - 14", "input": "", "output": "56 - 14 = 42"}
+{"instruction": "Compute 50 + 98", "input": "", "output": "50 + 98 = 148"}
+{"instruction": "Compute 15 + 30", "input": "", "output": "15 + 30 = 45"}
+{"instruction": "Compute 52 - 29", "input": "", "output": "52 - 29 = 23"}
+{"instruction": "Compute 33 + 72", "input": "", "output": "33 + 72 = 105"}
+{"instruction": "Compute 52 + 26", "input": "", "output": "52 + 26 = 78"}
+{"instruction": "Compute 44 - 33", "input": "", "output": "44 - 33 = 11"}
+{"instruction": "Compute 20 - 16", "input": "", "output": "20 - 16 = 4"}
+{"instruction": "Compute 98 - 47", "input": "", "output": "98 - 47 = 51"}
+{"instruction": "Compute 33 + 26", "input": "", "output": "33 + 26 = 59"}
+{"instruction": "Compute 45 - 43", "input": "", "output": "45 - 43 = 2"}
+{"instruction": "Compute 79 - 60", "input": "", "output": "79 - 60 = 19"}
+{"instruction": "Compute 35 + 65", "input": "", "output": "35 + 65 = 100"}
+{"instruction": "Compute 11 + 10", "input": "", "output": "11 + 10 = 21"}
+{"instruction": "Compute 67 - 57", "input": "", "output": "67 - 57 = 10"}
+{"instruction": "Compute 88 + 83", "input": "", "output": "88 + 83 = 171"}
+{"instruction": "Compute 64 + 46", "input": "", "output": "64 + 46 = 110"}
+{"instruction": "Compute 88 - 58", "input": "", "output": "88 - 58 = 30"}
+{"instruction": "Compute 74 + 43", "input": "", "output": "74 + 43 = 117"}
+{"instruction": "Compute 54 + 85", "input": "", "output": "54 + 85 = 139"}
+{"instruction": "Compute 99 + 71", "input": "", "output": "99 + 71 = 170"}
+{"instruction": "Compute 90 + 95", "input": "", "output": "90 + 95 = 185"}
+{"instruction": "Compute 17 + 28", "input": "", "output": "17 + 28 = 45"}
+{"instruction": "Compute 24 - 20", "input": "", "output": "24 - 20 = 4"}
+{"instruction": "Compute 100 - 49", "input": "", "output": "100 - 49 = 51"}
+{"instruction": "Compute 93 + 52", "input": "", "output": "93 + 52 = 145"}
+{"instruction": "Compute 35 + 47", "input": "", "output": "35 + 47 = 82"}
+{"instruction": "Compute 86 + 61", "input": "", "output": "86 + 61 = 147"}
+{"instruction": "Compute 10 + 89", "input": "", "output": "10 + 89 = 99"}
+{"instruction": "Compute 46 - 28", "input": "", "output": "46 - 28 = 18"}
+{"instruction": "Compute 56 + 39", "input": "", "output": "56 + 39 = 95"}
+{"instruction": "Compute 89 + 57", "input": "", "output": "89 + 57 = 146"}
+{"instruction": "Compute 11 + 22", "input": "", "output": "11 + 22 = 33"}
+{"instruction": "Compute 39 + 84", "input": "", "output": "39 + 84 = 123"}
+{"instruction": "Compute 72 - 12", "input": "", "output": "72 - 12 = 60"}
+{"instruction": "Compute 31 + 76", "input": "", "output": "31 + 76 = 107"}
+{"instruction": "Compute 83 + 85", "input": "", "output": "83 + 85 = 168"}
+{"instruction": "Compute 73 - 10", "input": "", "output": "73 - 10 = 63"}
+{"instruction": "Compute 43 + 52", "input": "", "output": "43 + 52 = 95"}
+{"instruction": "Compute 57 + 15", "input": "", "output": "57 + 15 = 72"}
+{"instruction": "Compute 84 + 55", "input": "", "output": "84 + 55 = 139"}
+{"instruction": "Compute 82 - 32", "input": "", "output": "82 - 32 = 50"}
+{"instruction": "Compute 90 - 29", "input": "", "output": "90 - 29 = 61"}
+{"instruction": "Compute 76 + 24", "input": "", "output": "76 + 24 = 100"}
+{"instruction": "Compute 46 - 35", "input": "", "output": "46 - 35 = 11"}
+{"instruction": "Compute 87 - 27", "input": "", "output": "87 - 27 = 60"}
+{"instruction": "Compute 29 + 73", "input": "", "output": "29 + 73 = 102"}
+{"instruction": "Compute 92 - 88", "input": "", "output": "92 - 88 = 4"}
+{"instruction": "Compute 80 - 76", "input": "", "output": "80 - 76 = 4"}
+{"instruction": "Compute 22 + 27", "input": "", "output": "22 + 27 = 49"}
+{"instruction": "Compute 92 + 34", "input": "", "output": "92 + 34 = 126"}
+{"instruction": "Compute 61 + 93", "input": "", "output": "61 + 93 = 154"}
+{"instruction": "Compute 66 + 21", "input": "", "output": "66 + 21 = 87"}
+{"instruction": "Compute 97 - 46", "input": "", "output": "97 - 46 = 51"}
+{"instruction": "Compute 53 - 24", "input": "", "output": "53 - 24 = 29"}
+{"instruction": "Compute 23 + 82", "input": "", "output": "23 + 82 = 105"}
+{"instruction": "Compute 90 - 60", "input": "", "output": "90 - 60 = 30"}

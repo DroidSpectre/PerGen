@@ -1,0 +1,353 @@
+#!/usr/bin/env python3
+"""
+Enhanced CSV to JSONL Converter v3 - Complete Dataset Support
+Supports both 500-sample and 1k sample datasets with flexible configuration
+"""
+
+import csv
+import json
+import os
+import argparse
+from typing import List, Dict, Any
+
+def csv_to_jsonl_instruction_format(csv_path: str, jsonl_path: str) -> int:
+    """
+    Convert CSV files with instruction,input,output format to JSONL
+    Universal function for any CSV with proper format
+    """
+    converted_count = 0
+    
+    print(f"Converting {csv_path} to {jsonl_path}...")
+    
+    try:
+        with open(csv_path, 'r', encoding='utf-8') as csv_file:
+            reader = csv.DictReader(csv_file)
+            
+            # Verify expected columns exist
+            if not all(col in reader.fieldnames for col in ['instruction', 'input', 'output']):
+                print(f"Warning: Expected columns [instruction, input, output] not found")
+                print(f"Found columns: {reader.fieldnames}")
+                return 0
+            
+            with open(jsonl_path, 'w', encoding='utf-8') as jsonl_file:
+                for row_num, row in enumerate(reader, 1):
+                    # Clean and validate data
+                    instruction = row['instruction'].strip()
+                    input_text = row['input'].strip() if row['input'] else ""
+                    output_text = row['output'].strip()
+                    
+                    # Skip rows with empty instruction or output
+                    if not instruction or not output_text:
+                        print(f"Skipping row {row_num}: empty instruction or output")
+                        continue
+                    
+                    # Create JSONL entry in Alpaca format
+                    json_obj = {
+                        "instruction": instruction,
+                        "input": input_text,
+                        "output": output_text
+                    }
+                    
+                    # Write to JSONL file
+                    jsonl_file.write(json.dumps(json_obj, ensure_ascii=False) + '\\n')
+                    converted_count += 1
+        
+        print(f"Successfully converted {converted_count} samples to {jsonl_path}")
+        return converted_count
+        
+    except FileNotFoundError:
+        print(f"Error: File {csv_path} not found")
+        return 0
+    except Exception as e:
+        print(f"Error processing {csv_path}: {e}")
+        return 0
+
+def find_csv_files(directory: str) -> List[str]:
+    """
+    Find all CSV files in the specified directory
+    """
+    csv_files = []
+    if os.path.exists(directory):
+        for file in os.listdir(directory):
+            if file.endswith('.csv'):
+                csv_files.append(file)
+    return sorted(csv_files)
+
+def convert_directory(csv_directory: str = ".", output_directory: str = ".", 
+                     file_list: List[str] = None) -> Dict[str, int]:
+    """
+    Convert all CSV files in directory or specified file list
+    """
+    if file_list is None:
+        # Auto-discover CSV files
+        csv_files = find_csv_files(csv_directory)
+        if not csv_files:
+            print(f"No CSV files found in {csv_directory}")
+            return {}
+    else:
+        csv_files = file_list
+    
+    results = {}
+    total_samples = 0
+    
+    print("🔄 CONVERTING CSV DATASETS TO JSONL")
+    print("=" * 60)
+    print(f"Input directory: {csv_directory}")
+    print(f"Output directory: {output_directory}")
+    print(f"Found {len(csv_files)} CSV files")
+    print("-" * 40)
+    
+    # Create output directory if it doesn't exist
+    os.makedirs(output_directory, exist_ok=True)
+    
+    for csv_file in csv_files:
+        csv_path = os.path.join(csv_directory, csv_file)
+        jsonl_file = csv_file.replace('.csv', '.jsonl')
+        jsonl_path = os.path.join(output_directory, jsonl_file)
+        
+        if os.path.exists(csv_path):
+            count = csv_to_jsonl_instruction_format(csv_path, jsonl_path)
+            results[csv_file] = count
+            total_samples += count
+            print(f"✅ {csv_file}: {count} samples converted")
+        else:
+            print(f"❌ {csv_file}: File not found")
+            results[csv_file] = 0
+    
+    print(f"\\n📊 CONVERSION SUMMARY")
+    print("=" * 40)
+    print(f"Total samples converted: {total_samples:,}")
+    print(f"Successful conversions: {len([r for r in results.values() if r > 0])}/{len(csv_files)}")
+    
+    return results
+
+def convert_standard_datasets(csv_directory: str = ".", output_directory: str = ".") -> Dict[str, int]:
+    """
+    Convert the standard educational datasets (500-sample sets)
+    """
+    standard_datasets = [
+        "MATH.csv",
+        "LITERATURE.csv", 
+        "GENERAL_KNOWLEDGE.csv",
+        "SCIENCE.csv",
+        "REASONING.csv"
+    ]
+    
+    return convert_directory(csv_directory, output_directory, standard_datasets)
+
+def convert_1k_datasets(csv_directory: str = ".", output_directory: str = ".") -> Dict[str, int]:
+    """
+    Convert the 1k sample datasets
+    """
+    datasets_1k = [
+        "Chat_Communication_1k.csv",
+        "Critical_Thinking_Problem_Solving_1k.csv",
+        "Emotional_Intelligence_1k.csv",
+        "Common_Sense_World_Facts_1k.csv"
+    ]
+    
+    return convert_directory(csv_directory, output_directory, datasets_1k)
+
+def validate_jsonl_file(jsonl_path: str, sample_count: int = 3) -> None:
+    """
+    Validate JSONL file and show samples
+    """
+    print(f"\\n🔍 VALIDATING {os.path.basename(jsonl_path)}")
+    print("-" * 40)
+    
+    try:
+        with open(jsonl_path, 'r', encoding='utf-8') as f:
+            lines = f.readlines()
+            
+        print(f"Total lines: {len(lines):,}")
+        
+        # Show sample entries
+        print(f"\\nSample entries (first {sample_count}):") 
+        for i, line in enumerate(lines[:sample_count], 1):
+            try:
+                data = json.loads(line)
+                print(f"\\nEntry {i}:")
+                print(f"  Instruction: {data['instruction'][:80]}...")
+                print(f"  Input: {data['input'][:50]}..." if data['input'] else "  Input: (empty)")
+                print(f"  Output: {data['output'][:80]}...")
+            except json.JSONDecodeError as e:
+                print(f"  Error parsing line {i}: {e}")
+                
+    except FileNotFoundError:
+        print(f"File {jsonl_path} not found")
+    except Exception as e:
+        print(f"Error validating {jsonl_path}: {e}")
+
+def create_dataset_statistics(results: Dict[str, int], dataset_type: str = "datasets") -> None:
+    """
+    Create comprehensive statistics about the converted datasets
+    """
+    print(f"\\n📈 {dataset_type.upper()} STATISTICS")
+    print("=" * 50)
+    
+    total_samples = sum(results.values())
+    successful_datasets = len([r for r in results.values() if r > 0])
+    
+    if total_samples == 0:
+        print("No datasets were successfully converted.")
+        return
+    
+    print(f"Successfully converted: {successful_datasets}/{len(results)} {dataset_type}")
+    print(f"Total training samples: {total_samples:,}")
+    print(f"Average samples per dataset: {total_samples/max(successful_datasets,1):.0f}")
+    
+    # Dataset breakdown
+    print(f"\\nDataset Breakdown:")
+    for dataset, count in results.items():
+        if count > 0:
+            percentage = (count / total_samples) * 100
+            print(f"  📁 {dataset:<35}: {count:>4} samples ({percentage:.1f}%)")
+    
+    # Training recommendations based on dataset type
+    if "1k" in dataset_type.lower() or total_samples > 3000:
+        print(f"\\n🎯 TRAINING RECOMMENDATIONS (Large Datasets):")
+        print(f"  • Tokenizer training: Use ~100-200 samples from each dataset")
+        print(f"  • Specialized training: Train each dataset separately for 1-2 epochs")
+        print(f"  • Integration training: Combine for final comprehensive training")
+        print(f"  • Expected training time: 4-8 hours per dataset (mobile CPU)")
+    else:
+        print(f"\\n🎯 TRAINING RECOMMENDATIONS (Standard Datasets):")
+        print(f"  • Tokenizer training: Use ~50 samples from each dataset")
+        print(f"  • Fine-tuning: Use full datasets in specialized phases")
+        print(f"  • Mixed training: Combine all for comprehensive training")
+        print(f"  • Expected training time: 2-4 hours per dataset (mobile CPU)")
+
+def interactive_mode():
+    """
+    Interactive mode for easy dataset conversion
+    """
+    print("🎯 INTERACTIVE DATASET CONVERTER")
+    print("=" * 50)
+    
+    print("Available conversion options:")
+    print("1. Convert standard datasets (500 samples each)")
+    print("2. Convert 1k sample datasets") 
+    print("3. Convert all CSV files in directory")
+    print("4. Convert specific files")
+    print("5. Exit")
+    
+    choice = input("\\nSelect option (1-5): ").strip()
+    
+    if choice == '1':
+        csv_dir = input("CSV directory (press Enter for current): ").strip() or "."
+        out_dir = input("Output directory (press Enter for same as CSV): ").strip() or csv_dir
+        results = convert_standard_datasets(csv_dir, out_dir)
+        create_dataset_statistics(results, "Standard Datasets")
+        
+    elif choice == '2':
+        csv_dir = input("CSV directory (press Enter for current): ").strip() or "."
+        out_dir = input("Output directory (press Enter for same as CSV): ").strip() or csv_dir
+        results = convert_1k_datasets(csv_dir, out_dir)
+        create_dataset_statistics(results, "1K Datasets")
+        
+    elif choice == '3':
+        csv_dir = input("CSV directory (press Enter for current): ").strip() or "."
+        out_dir = input("Output directory (press Enter for same as CSV): ").strip() or csv_dir
+        results = convert_directory(csv_dir, out_dir)
+        create_dataset_statistics(results, "All Datasets")
+        
+    elif choice == '4':
+        csv_dir = input("CSV directory (press Enter for current): ").strip() or "."
+        out_dir = input("Output directory (press Enter for same as CSV): ").strip() or csv_dir
+        files_input = input("Enter CSV filenames (comma-separated): ").strip()
+        file_list = [f.strip() for f in files_input.split(',') if f.strip()]
+        
+        if file_list:
+            results = convert_directory(csv_dir, out_dir, file_list)
+            create_dataset_statistics(results, "Selected Datasets")
+        else:
+            print("No files specified.")
+            
+    elif choice == '5':
+        print("Exiting...")
+        return
+    else:
+        print("Invalid choice. Please select 1-5.")
+        return interactive_mode()
+    
+    # Offer validation
+    if any(results.values() if 'results' in locals() else []):
+        validate_choice = input("\\nValidate converted files? (y/n): ").strip().lower()
+        if validate_choice == 'y':
+            out_dir = locals().get('out_dir', '.')
+            for dataset, count in results.items():
+                if count > 0:
+                    jsonl_file = dataset.replace('.csv', '.jsonl')
+                    jsonl_path = os.path.join(out_dir, jsonl_file)
+                    validate_jsonl_file(jsonl_path, 2)
+
+def main():
+    """
+    Main function with command line argument support
+    """
+    parser = argparse.ArgumentParser(description="Convert CSV datasets to JSONL format for TermuxTrain")
+    
+    parser.add_argument('--mode', choices=['standard', '1k', 'all', 'interactive'], 
+                       default='interactive', help='Conversion mode')
+    parser.add_argument('--input-dir', '-i', default='.', 
+                       help='Input directory containing CSV files (default: current)')
+    parser.add_argument('--output-dir', '-o', default=None,
+                       help='Output directory for JSONL files (default: same as input)')
+    parser.add_argument('--files', '-f', nargs='+', 
+                       help='Specific CSV files to convert')
+    parser.add_argument('--validate', action='store_true',
+                       help='Validate converted JSONL files')
+    parser.add_argument('--samples', type=int, default=3,
+                       help='Number of sample entries to show during validation')
+    
+    args = parser.parse_args()
+    
+    # Set output directory
+    output_dir = args.output_dir or args.input_dir
+    
+    print("🚀 ENHANCED CSV TO JSONL CONVERTER v3")
+    print("=" * 60)
+    print(f"Input directory: {args.input_dir}")
+    print(f"Output directory: {output_dir}")
+    print(f"Mode: {args.mode}")
+    
+    if args.mode == 'interactive':
+        interactive_mode()
+    elif args.mode == 'standard':
+        results = convert_standard_datasets(args.input_dir, output_dir)
+        create_dataset_statistics(results, "Standard Datasets")
+    elif args.mode == '1k':
+        results = convert_1k_datasets(args.input_dir, output_dir)
+        create_dataset_statistics(results, "1K Datasets")
+    elif args.mode == 'all':
+        results = convert_directory(args.input_dir, output_dir, args.files)
+        create_dataset_statistics(results, "All Datasets")
+    
+    # Validation if requested
+    if args.validate and 'results' in locals():
+        print("\\n" + "="*60)
+        print("🔍 VALIDATION RESULTS")
+        print("="*60)
+        for dataset, count in results.items():
+            if count > 0:
+                jsonl_file = dataset.replace('.csv', '.jsonl')
+                jsonl_path = os.path.join(output_dir, jsonl_file)
+                validate_jsonl_file(jsonl_path, args.samples)
+    
+    print(f"\\n✅ CONVERSION COMPLETE!")
+    print("Your datasets are now ready for TermuxTrain!")
+    
+    print(f"\\n📋 NEXT STEPS:")
+    next_steps = [
+        "1. Verify JSONL files are created with expected sizes",
+        "2. Copy JSONL files to your TermuxTrain data directory", 
+        "3. Update dataset paths in your training scripts",
+        "4. Run tokenizer training with samples from converted datasets",
+        "5. Begin your multi-phase training strategy"
+    ]
+    
+    for step in next_steps:
+        print(f"   {step}")
+
+if __name__ == "__main__":
+    main()

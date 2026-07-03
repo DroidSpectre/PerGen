@@ -1,0 +1,48 @@
+import os
+import glob
+import json
+from pathlib import Path
+import pyarrow.parquet as pq
+
+def process_parquet_file(input_path, output_dir, chunk_size=1000):
+    base_name = Path(input_path).stem
+    output_dir = Path(output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    parquet_file = pq.ParquetFile(input_path)
+    num_rows = parquet_file.metadata.num_rows
+    chunk_idx = 0
+    row_idx = 0
+
+    while row_idx < num_rows:
+        batch = parquet_file.read_row_group(row_idx // chunk_size, columns=None)
+        records = batch.to_pylist()
+        # Write up to chunk_size records per output file
+        for start in range(0, len(records), chunk_size):
+            chunk_records = records[start:start+chunk_size]
+            output_file = output_dir / f"{base_name}_chunk_{chunk_idx}.jsonl"
+            with open(output_file, "w", encoding="utf-8") as f:
+                for rec in chunk_records:
+                    # Remove None values for cleaner JSON
+                    clean_rec = {k: v for k, v in rec.items() if v is not None}
+                    f.write(json.dumps(clean_rec, ensure_ascii=False) + "\n")
+            print(f"✅ Wrote {len(chunk_records)} records to {output_file}")
+            chunk_idx += 1
+        row_idx += len(records)
+
+def find_parquet_files(root_dir):
+    # Recursively find all .parquet files in root_dir
+    return glob.glob(os.path.join(root_dir, '**', '*.parquet'), recursive=True)
+
+if __name__ == "__main__":
+    dataset_root = "/storage/emulated/0/download/datasets/training_session/"
+    parquet_files = find_parquet_files(dataset_root)
+    print(f"Found {len(parquet_files)} parquet files.")
+
+    for parquet_file in parquet_files:
+        print(f"Processing {parquet_file} ...")
+        process_parquet_file(
+            input_path=parquet_file,
+            output_dir=os.path.dirname(parquet_file),  # Save JSONL next to original
+            chunk_size=1000
+        )

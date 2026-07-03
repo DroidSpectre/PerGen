@@ -1,0 +1,52 @@
+Training data in Parquet format is not directly compatible with the typical input formats expected by machine learning models. However, you can convert Parquet data into a suitable format for training your model. Here’s how to handle it:
+
+### Steps to Use Parquet Data for Training
+
+1. **Read Parquet Files**: Use a library that can read Parquet files in Java, such as Apache Arrow or other libraries that support Parquet.
+
+2. **Convert to Suitable Format**: Extract the relevant text or numerical data from the Parquet files and convert it into a format that your training loop can use (e.g., plain text or numerical arrays).
+
+3. **Preprocess Data**: Tokenize or preprocess the extracted data according to your model's requirements. This includes:
+   - Cleaning the text (removing unwanted characters).
+   - Converting text into tokens or numerical representations using your implemented tokenizer.
+
+4. **Feed Data to the Model**: Modify your training loop to accept the preprocessed data as input for training.
+
+### Example Workflow
+
+1. **Read Parquet Data**:
+   ```java
+   // Pseudocode for reading Parquet data
+   import org.apache.parquet.example.data.Group;
+   import org.apache.parquet.hadoop.ParquetReader;
+   import org.apache.parquet.hadoop.example.ExampleInputFormat;
+
+   // Load and read your Parquet file
+   ParquetReader<Group> reader = ParquetReader.builder(new Path("data.parquet")).build();
+   Group record;
+   while ((record = reader.read()) != null) {
+       // Extract relevant fields from record
+   }
+   ```
+
+2. **Convert and Preprocess**:
+   ```java
+   // Convert extracted data to a suitable format
+   List<String> trainingTexts = new ArrayList<>();
+   // Assume you extract string data
+   trainingTexts.add(record.getString("textField", 0));
+   ```
+
+3. **Tokenization and Training**:
+   ```java
+   // Tokenize and prepare for training
+   for (String text : trainingTexts) {
+       // Tokenize and prepare input for your model
+       int[] tokenIndices = vocabularyBuilder.tokenizeToIndices(text);
+       // Feed tokenIndices to your training method
+   }
+   ```
+
+### Conclusion
+
+While Parquet format is not directly compatible with model training, you can easily convert it to a suitable format through the steps outlined above. This will enable you to utilize your Parquet-based training data effectively.

@@ -1,0 +1,86 @@
+# CSV to JSONL Conversion Script
+# Convert your CSV datasets to JSONL format for enhanced processor
+
+import csv
+import json
+import os
+from typing import List, Dict, Any
+
+def csv_to_jsonl_simple(csv_path: str, jsonl_path: str, text_column: str = "text") -> None:
+    """Convert simple CSV with text column to JSONL"""
+    with open(csv_path, 'r', encoding='utf-8') as csv_file:
+        reader = csv.DictReader(csv_file)
+        
+        with open(jsonl_path, 'w', encoding='utf-8') as jsonl_file:
+            for row in reader:
+                # Simple format: just text
+                if text_column in row and row[text_column].strip():
+                    json_obj = {
+                        "text": row[text_column].strip()
+                    }
+                    jsonl_file.write(json.dumps(json_obj) + '\n')
+
+def csv_to_jsonl_instruction(csv_path: str, jsonl_path: str, 
+                           instruction_col: str = "instruction",
+                           input_col: str = "input", 
+                           output_col: str = "output") -> None:
+    """Convert CSV with instruction format to JSONL"""
+    with open(csv_path, 'r', encoding='utf-8') as csv_file:
+        reader = csv.DictReader(csv_file)
+        
+        with open(jsonl_path, 'w', encoding='utf-8') as jsonl_file:
+            for row in reader:
+                # Instruction-following format
+                if instruction_col in row and output_col in row:
+                    json_obj = {
+                        "instruction": row[instruction_col].strip(),
+                        "input": row.get(input_col, "").strip(),
+                        "output": row[output_col].strip()
+                    }
+                    jsonl_file.write(json.dumps(json_obj) + '\n')
+
+def csv_to_jsonl_qa(csv_path: str, jsonl_path: str,
+                    question_col: str = "question",
+                    answer_col: str = "answer") -> None:
+    """Convert CSV with Q&A format to JSONL"""
+    with open(csv_path, 'r', encoding='utf-8') as csv_file:
+        reader = csv.DictReader(csv_file)
+        
+        with open(jsonl_path, 'w', encoding='utf-8') as jsonl_file:
+            for row in reader:
+                # Question-Answer format
+                if question_col in row and answer_col in row:
+                    json_obj = {
+                        "question": row[question_col].strip(),
+                        "answer": row[answer_col].strip()
+                    }
+                    jsonl_file.write(json.dumps(json_obj) + '\n')
+
+# Example usage for your datasets
+if __name__ == "__main__":
+    # Convert your 500 and 1k sample CSV files
+    # Adjust column names and paths as needed
+    
+    # Example 1: Simple text dataset
+    csv_to_jsonl_simple(
+        "500_samples.csv", 
+        "500_samples.jsonl", 
+        text_column="text"
+    )
+    
+    csv_to_jsonl_simple(
+        "1k_samples.csv", 
+        "1k_samples.jsonl", 
+        text_column="text"
+    )
+    
+    # Example 2: If your CSV has instruction format
+    # csv_to_jsonl_instruction(
+    #     "500_samples.csv",
+    #     "500_samples.jsonl",
+    #     instruction_col="instruction",
+    #     input_col="input", 
+    #     output_col="output"
+    # )
+    
+    print("CSV to JSONL conversion complete!")

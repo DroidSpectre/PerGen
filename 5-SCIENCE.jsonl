@@ -1,0 +1,500 @@
+{"instruction": "Calculate the force needed to accelerate a 10 kg object at 5 m/s²", "input": "", "output": "Using Newton's second law: F = ma\nF = 10 kg × 5 m/s² = 50 N"}
+{"instruction": "What is the kinetic energy of a 2 kg object moving at 6 m/s?", "input": "", "output": "Kinetic energy = ½mv²\nKE = ½ × 2 kg × (6 m/s)² = ½ × 2 × 36 = 36 J"}
+{"instruction": "How long does it take for light to travel from the Sun to Earth?", "input": "", "output": "Distance from Sun to Earth = 149.6 million km = 1.496 × 10⁸ km\nSpeed of light = 3 × 10⁸ m/s\nTime = distance/speed = 1.496 × 10¹¹ m / 3 × 10⁸ m/s ≈ 499 seconds ≈ 8.3 minutes"}
+{"instruction": "Explain the difference between speed and velocity", "input": "", "output": "Speed is a scalar quantity that measures how fast an object moves (distance/time). Velocity is a vector quantity that includes both speed and direction. An object can have constant speed but changing velocity if its direction changes."}
+{"instruction": "What happens to the wavelength of sound when frequency increases?", "input": "", "output": "When frequency increases, wavelength decreases. This follows from the wave equation: v = fλ, where v (wave speed) is constant for sound in a given medium. Therefore, f and λ are inversely proportional."}
+{"instruction": "What is the chemical formula for water?", "input": "", "output": "The chemical formula for water is H₂O (two hydrogen atoms and one oxygen atom)"}
+{"instruction": "Balance the chemical equation: H₂ + O₂ → H₂O", "input": "", "output": "2H₂ + O₂ → 2H₂O\nThis balances: 4 hydrogen atoms and 2 oxygen atoms on each side"}
+{"instruction": "How many protons does carbon have?", "input": "", "output": "Carbon has 6 protons, which is its atomic number on the periodic table"}
+{"instruction": "What type of bond forms between sodium and chlorine in salt?", "input": "", "output": "An ionic bond forms between sodium (Na) and chlorine (Cl). Sodium loses an electron to become Na⁺, and chlorine gains an electron to become Cl⁻. The opposite charges attract."}
+{"instruction": "Calculate the molar mass of CO₂", "input": "", "output": "Carbon: 12.01 g/mol × 1 = 12.01 g/mol\nOxygen: 16.00 g/mol × 2 = 32.00 g/mol\nTotal molar mass of CO₂ = 12.01 + 32.00 = 44.01 g/mol"}
+{"instruction": "What is the function of mitochondria in cells?", "input": "", "output": "Mitochondria are the powerhouses of the cell. They produce ATP (energy) through cellular respiration, converting glucose and oxygen into energy that cells can use for various processes."}
+{"instruction": "Explain the process of photosynthesis", "input": "", "output": "Photosynthesis is the process by which plants convert sunlight, carbon dioxide, and water into glucose and oxygen. The equation is: 6CO₂ + 6H₂O + light energy → C₆H₁₂O₆ + 6O₂. This occurs mainly in chloroplasts."}
+{"instruction": "What are the four bases in DNA?", "input": "", "output": "The four bases in DNA are: Adenine (A), Thymine (T), Guanine (G), and Cytosine (C). A pairs with T, and G pairs with C."}
+{"instruction": "Describe the difference between prokaryotic and eukaryotic cells", "input": "", "output": "Prokaryotic cells lack a membrane-bound nucleus and organelles (bacteria, archaea). Eukaryotic cells have a membrane-bound nucleus and organelles like mitochondria, endoplasmic reticulum (plants, animals, fungi, protists)."}
+{"instruction": "What is natural selection?", "input": "", "output": "Natural selection is the process by which organisms with favorable traits are more likely to survive and reproduce, passing those traits to offspring. Over time, this leads to evolutionary changes in populations."}
+{"instruction": "What causes the seasons on Earth?", "input": "", "output": "Seasons are caused by Earth's axial tilt of 23.5 degrees as it orbits the Sun. When a hemisphere is tilted toward the Sun, it receives more direct sunlight and experiences summer. When tilted away, it's winter."}
+{"instruction": "Explain the water cycle", "input": "", "output": "The water cycle involves: 1) Evaporation from oceans/lakes, 2) Condensation into clouds, 3) Precipitation as rain/snow, 4) Collection in bodies of water, and 5) Transpiration from plants. Solar energy drives this continuous process."}
+{"instruction": "What type of rock is formed from cooled magma?", "input": "", "output": "Igneous rock is formed from cooled magma. If it cools underground, it's intrusive igneous rock. If it cools above ground, it's extrusive igneous rock."}
+{"instruction": "Why do earthquakes occur?", "input": "", "output": "Earthquakes occur due to the movement of tectonic plates. When plates slide past, collide, or separate, they create stress in rock. When this stress exceeds the rock's strength, it breaks suddenly, releasing energy as seismic waves."}
+{"instruction": "What is the greenhouse effect?", "input": "", "output": "The greenhouse effect occurs when greenhouse gases (CO₂, CH₄, water vapor) trap heat in Earth's atmosphere. Solar radiation enters, but these gases prevent some heat from escaping back to space, warming the planet."}
+{"instruction": "What is a light-year?", "input": "", "output": "A light-year is the distance light travels in one year, approximately 9.46 trillion kilometers or 5.88 trillion miles. It's used to measure vast distances in space."}
+{"instruction": "Why do we see different phases of the Moon?", "input": "", "output": "Moon phases occur because we see different portions of the Moon's illuminated surface as it orbits Earth. The Moon's position relative to Earth and the Sun determines how much of the lit side we can see."}
+{"instruction": "What is the difference between a star and a planet?", "input": "", "output": "Stars generate their own light through nuclear fusion in their cores. Planets do not produce light; they reflect light from stars. Stars are typically much larger and hotter than planets."}
+{"instruction": "How are galaxies classified?", "input": "", "output": "Galaxies are classified into three main types: 1) Spiral (like the Milky Way), 2) Elliptical (oval-shaped), and 3) Irregular (no defined shape). This classification is based on their visual appearance and structure."}
+{"instruction": "What is a supernova?", "input": "", "output": "A supernova is the explosive death of a massive star. When the star runs out of fuel, its core collapses and then explodes outward, briefly outshining entire galaxies."}
+{"instruction": "A ball is dropped from a height of 20 meters. How long does it take to hit the ground?", "input": "", "output": "Using h = ½gt², where h = 20 m and g = 9.8 m/s²\n20 = ½(9.8)t²\n20 = 4.9t²\nt² = 20/4.9 ≈ 4.08\nt = √4.08 ≈ 2.02 seconds"}
+{"instruction": "What is Newton's first law of motion?", "input": "", "output": "Newton's first law (law of inertia) states that an object at rest stays at rest, and an object in motion stays in motion at constant velocity, unless acted upon by a net external force."}
+{"instruction": "Calculate the momentum of a 5 kg object moving at 10 m/s", "input": "", "output": "Momentum = mass × velocity\np = mv = 5 kg × 10 m/s = 50 kg⋅m/s"}
+{"instruction": "What is the difference between mass and weight?", "input": "", "output": "Mass is the amount of matter in an object (measured in kg), which remains constant. Weight is the gravitational force acting on that mass (measured in Newtons), which varies with gravitational field strength."}
+{"instruction": "What happens to the volume of a gas when temperature increases at constant pressure?", "input": "", "output": "According to Charles's Law, volume increases proportionally with temperature (in Kelvin) when pressure is constant. V₁/T₁ = V₂/T₂"}
+{"instruction": "Explain the first law of thermodynamics", "input": "", "output": "The first law states that energy cannot be created or destroyed, only transferred or converted from one form to another. ΔU = Q - W, where ΔU is change in internal energy, Q is heat added, and W is work done by the system."}
+{"instruction": "What is absolute zero?", "input": "", "output": "Absolute zero is 0 Kelvin (-273.15°C or -459.67°F), the theoretical temperature at which all molecular motion stops and a system has minimum possible energy."}
+{"instruction": "What is Ohm's Law?", "input": "", "output": "Ohm's Law states that current (I) is directly proportional to voltage (V) and inversely proportional to resistance (R): V = IR"}
+{"instruction": "Calculate the current in a circuit with 12V battery and 4Ω resistance", "input": "", "output": "Using Ohm's Law: I = V/R = 12V / 4Ω = 3 A"}
+{"instruction": "What creates a magnetic field around a wire?", "input": "", "output": "Electric current flowing through a wire creates a magnetic field around it. The direction follows the right-hand rule: thumb points in current direction, fingers curl in magnetic field direction."}
+{"instruction": "Calculate the force needed to accelerate a 16 kg object at 4 m/s²", "input": "", "output": "Using F = ma\nF = 16 kg × 4 m/s² = 64 N"}
+{"instruction": "Find the kinetic energy of a 7 kg object moving at 10 m/s", "input": "", "output": "KE = ½mv² = ½ × 7 × 10² = ½ × 7 × 100 = 350.0 J"}
+{"instruction": "Calculate power if 811 J of work is done in 15 seconds", "input": "", "output": "Power = Work/Time = 811 J / 15 s = 54.1 W"}
+{"instruction": "Calculate the force needed to accelerate a 4 kg object at 3 m/s²", "input": "", "output": "Using F = ma\nF = 4 kg × 3 m/s² = 12 N"}
+{"instruction": "Find the kinetic energy of a 5 kg object moving at 9 m/s", "input": "", "output": "KE = ½mv² = ½ × 5 × 9² = ½ × 5 × 81 = 202.5 J"}
+{"instruction": "Calculate power if 823 J of work is done in 8 seconds", "input": "", "output": "Power = Work/Time = 823 J / 8 s = 102.9 W"}
+{"instruction": "Calculate the force needed to accelerate a 2 kg object at 10 m/s²", "input": "", "output": "Using F = ma\nF = 2 kg × 10 m/s² = 20 N"}
+{"instruction": "Find the kinetic energy of a 9 kg object moving at 8 m/s", "input": "", "output": "KE = ½mv² = ½ × 9 × 8² = ½ × 9 × 64 = 288.0 J"}
+{"instruction": "Calculate power if 265 J of work is done in 7 seconds", "input": "", "output": "Power = Work/Time = 265 J / 7 s = 37.9 W"}
+{"instruction": "Calculate the force needed to accelerate a 5 kg object at 7 m/s²", "input": "", "output": "Using F = ma\nF = 5 kg × 7 m/s² = 35 N"}
+{"instruction": "Find the kinetic energy of a 1 kg object moving at 7 m/s", "input": "", "output": "KE = ½mv² = ½ × 1 × 7² = ½ × 1 × 49 = 24.5 J"}
+{"instruction": "Calculate power if 501 J of work is done in 17 seconds", "input": "", "output": "Power = Work/Time = 501 J / 17 s = 29.5 W"}
+{"instruction": "Calculate the force needed to accelerate a 2 kg object at 3 m/s²", "input": "", "output": "Using F = ma\nF = 2 kg × 3 m/s² = 6 N"}
+{"instruction": "Find the kinetic energy of a 10 kg object moving at 12 m/s", "input": "", "output": "KE = ½mv² = ½ × 10 × 12² = ½ × 10 × 144 = 720.0 J"}
+{"instruction": "Calculate power if 871 J of work is done in 18 seconds", "input": "", "output": "Power = Work/Time = 871 J / 18 s = 48.4 W"}
+{"instruction": "Calculate the force needed to accelerate a 11 kg object at 6 m/s²", "input": "", "output": "Using F = ma\nF = 11 kg × 6 m/s² = 66 N"}
+{"instruction": "Find the kinetic energy of a 2 kg object moving at 9 m/s", "input": "", "output": "KE = ½mv² = ½ × 2 × 9² = ½ × 2 × 81 = 81.0 J"}
+{"instruction": "Calculate power if 520 J of work is done in 16 seconds", "input": "", "output": "Power = Work/Time = 520 J / 16 s = 32.5 W"}
+{"instruction": "Calculate the force needed to accelerate a 17 kg object at 7 m/s²", "input": "", "output": "Using F = ma\nF = 17 kg × 7 m/s² = 119 N"}
+{"instruction": "Find the kinetic energy of a 1 kg object moving at 13 m/s", "input": "", "output": "KE = ½mv² = ½ × 1 × 13² = ½ × 1 × 169 = 84.5 J"}
+{"instruction": "Calculate power if 730 J of work is done in 11 seconds", "input": "", "output": "Power = Work/Time = 730 J / 11 s = 66.4 W"}
+{"instruction": "Calculate the force needed to accelerate a 15 kg object at 5 m/s²", "input": "", "output": "Using F = ma\nF = 15 kg × 5 m/s² = 75 N"}
+{"instruction": "Find the kinetic energy of a 2 kg object moving at 5 m/s", "input": "", "output": "KE = ½mv² = ½ × 2 × 5² = ½ × 2 × 25 = 25.0 J"}
+{"instruction": "Calculate power if 692 J of work is done in 17 seconds", "input": "", "output": "Power = Work/Time = 692 J / 17 s = 40.7 W"}
+{"instruction": "Calculate the force needed to accelerate a 17 kg object at 8 m/s²", "input": "", "output": "Using F = ma\nF = 17 kg × 8 m/s² = 136 N"}
+{"instruction": "How many electrons does a neutral oxygen atom have?", "input": "", "output": "A neutral oxygen atom has 8 electrons, equal to its atomic number (number of protons)"}
+{"instruction": "What is an isotope?", "input": "", "output": "Isotopes are atoms of the same element with the same number of protons but different numbers of neutrons, resulting in different atomic masses."}
+{"instruction": "Explain the difference between ionic and covalent bonds", "input": "", "output": "Ionic bonds form when electrons transfer from one atom to another (metal to nonmetal). Covalent bonds form when atoms share electrons (typically between nonmetals)."}
+{"instruction": "What is electronegativity?", "input": "", "output": "Electronegativity is an atom's ability to attract and hold electrons in a chemical bond. It increases across periods and decreases down groups in the periodic table."}
+{"instruction": "What is a catalyst?", "input": "", "output": "A catalyst is a substance that speeds up a chemical reaction by lowering the activation energy, but is not consumed in the reaction and can be reused."}
+{"instruction": "Explain what happens during combustion", "input": "", "output": "Combustion is a chemical reaction where a substance reacts with oxygen, producing heat and light. Complete combustion of hydrocarbons produces CO₂ and H₂O."}
+{"instruction": "What is the pH scale?", "input": "", "output": "The pH scale measures acidity/basicity from 0-14. pH < 7 is acidic, pH = 7 is neutral, pH > 7 is basic. Each unit represents a 10-fold change in hydrogen ion concentration."}
+{"instruction": "Describe the three main states of matter", "input": "", "output": "Solid: particles closely packed, vibrate in place, definite shape and volume. Liquid: particles close but mobile, definite volume but takes container shape. Gas: particles far apart and mobile, fills entire container."}
+{"instruction": "What is sublimation?", "input": "", "output": "Sublimation is the direct transition from solid to gas phase without passing through the liquid phase. Dry ice (solid CO₂) is a common example."}
+{"instruction": "Explain boiling point", "input": "", "output": "Boiling point is the temperature at which a liquid's vapor pressure equals atmospheric pressure, causing bubbles to form throughout the liquid."}
+{"instruction": "Calculate the molar mass of H₂SO₄", "input": "", "output": "Molar mass = 1 × 2 + 32 × 1 + 16 × 4 = 98 g/mol"}
+{"instruction": "Calculate the molar mass of CaCl₂", "input": "", "output": "Molar mass = 40 × 1 + 35.5 × 2 = 111.0 g/mol"}
+{"instruction": "Calculate the molar mass of NaOH", "input": "", "output": "Molar mass = 23 × 1 + 16 × 1 + 1 × 1 = 40 g/mol"}
+{"instruction": "Calculate the molar mass of CH₄", "input": "", "output": "Molar mass = 12 × 1 + 1 × 4 = 16 g/mol"}
+{"instruction": "What is the function of the cell membrane?", "input": "", "output": "The cell membrane controls what enters and leaves the cell, maintaining cell shape and protecting the cell's interior. It's selectively permeable."}
+{"instruction": "Describe the structure and function of DNA", "input": "", "output": "DNA is a double helix made of nucleotides containing a phosphate, sugar, and nitrogenous base. It stores genetic information and instructions for making proteins."}
+{"instruction": "What is cellular respiration?", "input": "", "output": "Cellular respiration breaks down glucose using oxygen to produce ATP energy. The equation is: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ATP"}
+{"instruction": "Explain the difference between mitosis and meiosis", "input": "", "output": "Mitosis produces two identical diploid cells for growth/repair. Meiosis produces four genetically different haploid gametes for reproduction."}
+{"instruction": "What is a gene?", "input": "", "output": "A gene is a specific sequence of DNA that codes for a particular protein or trait. Genes are the basic units of heredity."}
+{"instruction": "Explain dominant and recessive alleles", "input": "", "output": "Dominant alleles are expressed when present (represented by capital letters). Recessive alleles are only expressed when two copies are present (lowercase letters)."}
+{"instruction": "What is the role of RNA?", "input": "", "output": "RNA carries genetic information from DNA to make proteins. mRNA carries the code, tRNA brings amino acids, and rRNA helps build proteins in ribosomes."}
+{"instruction": "Define ecosystem", "input": "", "output": "An ecosystem is a community of living organisms interacting with each other and their physical environment, including energy flow and nutrient cycling."}
+{"instruction": "What is a food chain?", "input": "", "output": "A food chain shows the transfer of energy from one organism to another. It typically flows from producers (plants) to primary consumers to secondary consumers."}
+{"instruction": "Explain adaptation in evolution", "input": "", "output": "Adaptation is the process by which organisms develop traits that help them survive and reproduce in their environment through natural selection over generations."}
+{"instruction": "What is the function of red blood cells?", "input": "", "output": "Red blood cells (erythrocytes) transport oxygen from lungs to body tissues using hemoglobin, and carry some carbon dioxide back to the lungs."}
+{"instruction": "Explain how the heart pumps blood", "input": "", "output": "The heart has four chambers. Atria receive blood, ventricles pump it out. The right side pumps to lungs, left side pumps to body. Valves prevent backflow."}
+{"instruction": "What do enzymes do?", "input": "", "output": "Enzymes are proteins that catalyze biochemical reactions by lowering activation energy. They speed up reactions without being consumed."}
+{"instruction": "Describe the nervous system", "input": "", "output": "The nervous system controls body functions through electrical signals. It includes the central nervous system (brain and spinal cord) and peripheral nervous system."}
+{"instruction": "What are the three types of rocks?", "input": "", "output": "The three types of rocks are: 1) Igneous (formed from cooled magma/lava), 2) Sedimentary (formed from compressed sediments), 3) Metamorphic (formed from heat/pressure on existing rocks)."}
+{"instruction": "Explain plate tectonics", "input": "", "output": "Plate tectonics is the theory that Earth's lithosphere is divided into moving plates. These plates interact at boundaries, causing earthquakes, volcanoes, and mountain formation."}
+{"instruction": "What is the rock cycle?", "input": "", "output": "The rock cycle shows how rocks transform: igneous rocks weather into sediments → sedimentary rocks → heat/pressure creates metamorphic rocks → melting forms magma → igneous rocks."}
+{"instruction": "How are fossils formed?", "input": "", "output": "Fossils form when organisms are quickly buried by sediment, preventing decay. Over time, minerals replace organic material or leave impressions in rock."}
+{"instruction": "What causes wind?", "input": "", "output": "Wind is caused by uneven heating of Earth's surface. Warm air rises, cool air sinks, creating pressure differences that drive air movement from high to low pressure areas."}
+{"instruction": "Explain how clouds form", "input": "", "output": "Clouds form when warm, moist air rises and cools. As temperature drops, water vapor condenses around tiny particles (condensation nuclei) forming water droplets or ice crystals."}
+{"instruction": "What is the difference between weather and climate?", "input": "", "output": "Weather is short-term atmospheric conditions (daily changes). Climate is long-term average weather patterns over 30+ years for a region."}
+{"instruction": "How do hurricanes form?", "input": "", "output": "Hurricanes form over warm ocean water (≥26.5°C) when low pressure systems organize. Warm, moist air rises, creating rotation due to Coriolis effect and strengthening the storm."}
+{"instruction": "What is biodiversity?", "input": "", "output": "Biodiversity is the variety of life on Earth, including species diversity, genetic diversity within species, and ecosystem diversity."}
+{"instruction": "Explain the carbon cycle", "input": "", "output": "Carbon moves through atmosphere, land, and ocean. Plants absorb CO₂, animals release it, dead organisms become fossil fuels, and human activities add CO₂ to atmosphere."}
+{"instruction": "What causes acid rain?", "input": "", "output": "Acid rain forms when sulfur dioxide and nitrogen oxides from burning fossil fuels react with water in the atmosphere, forming sulfuric and nitric acids."}
+{"instruction": "Define renewable vs non-renewable resources", "input": "", "output": "Renewable resources regenerate naturally (solar, wind, water). Non-renewable resources are finite and take millions of years to form (fossil fuels, minerals)."}
+{"instruction": "Name the layers of Earth from outermost to innermost", "input": "", "output": "Earth's layers from outside to inside: Crust, Mantle, Outer Core (liquid iron/nickel), Inner Core (solid iron/nickel)"}
+{"instruction": "What is the Mohs hardness scale?", "input": "", "output": "The Mohs scale rates mineral hardness from 1-10: 1=Talc (softest), 5=Apatite, 7=Quartz, 10=Diamond (hardest). Each mineral can scratch those below it."}
+{"instruction": "List the main processes in the water cycle", "input": "", "output": "Main water cycle processes: Evaporation (liquid to gas), Condensation (gas to liquid), Precipitation (rain/snow), Collection (in water bodies), Transpiration (from plants)"}
+{"instruction": "What are the main greenhouse gases?", "input": "", "output": "Main greenhouse gases: Carbon dioxide (CO₂), Methane (CH₄), Nitrous oxide (N₂O), Fluorinated gases, and Water vapor (H₂O)"}
+{"instruction": "Name the layers of Earth from outermost to innermost", "input": "", "output": "Earth's layers from outside to inside: Crust, Mantle, Outer Core (liquid iron/nickel), Inner Core (solid iron/nickel)"}
+{"instruction": "What is the Mohs hardness scale?", "input": "", "output": "The Mohs scale rates mineral hardness from 1-10: 1=Talc (softest), 5=Apatite, 7=Quartz, 10=Diamond (hardest). Each mineral can scratch those below it."}
+{"instruction": "List the main processes in the water cycle", "input": "", "output": "Main water cycle processes: Evaporation (liquid to gas), Condensation (gas to liquid), Precipitation (rain/snow), Collection (in water bodies), Transpiration (from plants)"}
+{"instruction": "What are the main greenhouse gases?", "input": "", "output": "Main greenhouse gases: Carbon dioxide (CO₂), Methane (CH₄), Nitrous oxide (N₂O), Fluorinated gases, and Water vapor (H₂O)"}
+{"instruction": "Name the layers of Earth from outermost to innermost", "input": "", "output": "Earth's layers from outside to inside: Crust, Mantle, Outer Core (liquid iron/nickel), Inner Core (solid iron/nickel)"}
+{"instruction": "What is the Mohs hardness scale?", "input": "", "output": "The Mohs scale rates mineral hardness from 1-10: 1=Talc (softest), 5=Apatite, 7=Quartz, 10=Diamond (hardest). Each mineral can scratch those below it."}
+{"instruction": "List the main processes in the water cycle", "input": "", "output": "Main water cycle processes: Evaporation (liquid to gas), Condensation (gas to liquid), Precipitation (rain/snow), Collection (in water bodies), Transpiration (from plants)"}
+{"instruction": "What are the main greenhouse gases?", "input": "", "output": "Main greenhouse gases: Carbon dioxide (CO₂), Methane (CH₄), Nitrous oxide (N₂O), Fluorinated gases, and Water vapor (H₂O)"}
+{"instruction": "Name the layers of Earth from outermost to innermost", "input": "", "output": "Earth's layers from outside to inside: Crust, Mantle, Outer Core (liquid iron/nickel), Inner Core (solid iron/nickel)"}
+{"instruction": "What is the Mohs hardness scale?", "input": "", "output": "The Mohs scale rates mineral hardness from 1-10: 1=Talc (softest), 5=Apatite, 7=Quartz, 10=Diamond (hardest). Each mineral can scratch those below it."}
+{"instruction": "List the main processes in the water cycle", "input": "", "output": "Main water cycle processes: Evaporation (liquid to gas), Condensation (gas to liquid), Precipitation (rain/snow), Collection (in water bodies), Transpiration (from plants)"}
+{"instruction": "What are the main greenhouse gases?", "input": "", "output": "Main greenhouse gases: Carbon dioxide (CO₂), Methane (CH₄), Nitrous oxide (N₂O), Fluorinated gases, and Water vapor (H₂O)"}
+{"instruction": "Name the layers of Earth from outermost to innermost", "input": "", "output": "Earth's layers from outside to inside: Crust, Mantle, Outer Core (liquid iron/nickel), Inner Core (solid iron/nickel)"}
+{"instruction": "What is the Mohs hardness scale?", "input": "", "output": "The Mohs scale rates mineral hardness from 1-10: 1=Talc (softest), 5=Apatite, 7=Quartz, 10=Diamond (hardest). Each mineral can scratch those below it."}
+{"instruction": "List the main processes in the water cycle", "input": "", "output": "Main water cycle processes: Evaporation (liquid to gas), Condensation (gas to liquid), Precipitation (rain/snow), Collection (in water bodies), Transpiration (from plants)"}
+{"instruction": "What are the main greenhouse gases?", "input": "", "output": "Main greenhouse gases: Carbon dioxide (CO₂), Methane (CH₄), Nitrous oxide (N₂O), Fluorinated gases, and Water vapor (H₂O)"}
+{"instruction": "Name the layers of Earth from outermost to innermost", "input": "", "output": "Earth's layers from outside to inside: Crust, Mantle, Outer Core (liquid iron/nickel), Inner Core (solid iron/nickel)"}
+{"instruction": "What is the Mohs hardness scale?", "input": "", "output": "The Mohs scale rates mineral hardness from 1-10: 1=Talc (softest), 5=Apatite, 7=Quartz, 10=Diamond (hardest). Each mineral can scratch those below it."}
+{"instruction": "List the main processes in the water cycle", "input": "", "output": "Main water cycle processes: Evaporation (liquid to gas), Condensation (gas to liquid), Precipitation (rain/snow), Collection (in water bodies), Transpiration (from plants)"}
+{"instruction": "What are the main greenhouse gases?", "input": "", "output": "Main greenhouse gases: Carbon dioxide (CO₂), Methane (CH₄), Nitrous oxide (N₂O), Fluorinated gases, and Water vapor (H₂O)"}
+{"instruction": "Name the layers of Earth from outermost to innermost", "input": "", "output": "Earth's layers from outside to inside: Crust, Mantle, Outer Core (liquid iron/nickel), Inner Core (solid iron/nickel)"}
+{"instruction": "What is the Mohs hardness scale?", "input": "", "output": "The Mohs scale rates mineral hardness from 1-10: 1=Talc (softest), 5=Apatite, 7=Quartz, 10=Diamond (hardest). Each mineral can scratch those below it."}
+{"instruction": "List the main processes in the water cycle", "input": "", "output": "Main water cycle processes: Evaporation (liquid to gas), Condensation (gas to liquid), Precipitation (rain/snow), Collection (in water bodies), Transpiration (from plants)"}
+{"instruction": "What are the main greenhouse gases?", "input": "", "output": "Main greenhouse gases: Carbon dioxide (CO₂), Methane (CH₄), Nitrous oxide (N₂O), Fluorinated gases, and Water vapor (H₂O)"}
+{"instruction": "Name the layers of Earth from outermost to innermost", "input": "", "output": "Earth's layers from outside to inside: Crust, Mantle, Outer Core (liquid iron/nickel), Inner Core (solid iron/nickel)"}
+{"instruction": "What is the Mohs hardness scale?", "input": "", "output": "The Mohs scale rates mineral hardness from 1-10: 1=Talc (softest), 5=Apatite, 7=Quartz, 10=Diamond (hardest). Each mineral can scratch those below it."}
+{"instruction": "List the planets in order from the Sun", "input": "", "output": "The planets in order from the Sun: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune"}
+{"instruction": "What is the difference between terrestrial and gas giant planets?", "input": "", "output": "Terrestrial planets (Mercury, Venus, Earth, Mars) are small, rocky, and dense. Gas giants (Jupiter, Saturn, Uranus, Neptune) are large, made mostly of gas, with lower density."}
+{"instruction": "Why is Pluto no longer classified as a planet?", "input": "", "output": "Pluto was reclassified as a dwarf planet in 2006 because it hasn't cleared its orbital path of other objects, one of the three criteria for planet status."}
+{"instruction": "What causes tides on Earth?", "input": "", "output": "Tides are caused primarily by the Moon's gravitational pull on Earth's water, with some contribution from the Sun. Water bulges toward and away from the Moon."}
+{"instruction": "How do stars form?", "input": "", "output": "Stars form in nebulae when gravity causes gas and dust to collapse. As material compresses, temperature rises until nuclear fusion begins in the core."}
+{"instruction": "What determines a star's color?", "input": "", "output": "A star's color depends on its surface temperature. Blue/white stars are hottest (>10,000K), yellow stars are medium (5,000-6,000K), red stars are coolest (<4,000K)."}
+{"instruction": "What is a black hole?", "input": "", "output": "A black hole is a region where gravity is so strong that nothing, not even light, can escape. They form when massive stars collapse after running out of fuel."}
+{"instruction": "How many stars are in the Milky Way galaxy?", "input": "", "output": "The Milky Way contains an estimated 100-400 billion stars, along with planets, gas, dust, and dark matter."}
+{"instruction": "What is the Big Bang Theory?", "input": "", "output": "The Big Bang Theory states that the universe began as an extremely hot, dense point about 13.8 billion years ago and has been expanding and cooling ever since."}
+{"instruction": "What is dark matter?", "input": "", "output": "Dark matter is invisible matter that makes up about 27% of the universe. It doesn't emit light but its gravitational effects can be observed."}
+{"instruction": "Why do we see stars as they were in the past?", "input": "", "output": "Light travels at a finite speed (3×10⁸ m/s). When we see distant stars, we're seeing light that left them years ago, so we see them as they were in the past."}
+{"instruction": "What are the steps of the scientific method?", "input": "", "output": "Scientific method steps: 1) Observe, 2) Ask questions, 3) Form hypothesis, 4) Design experiment, 5) Collect data, 6) Analyze results, 7) Draw conclusions, 8) Communicate findings"}
+{"instruction": "What is a controlled variable?", "input": "", "output": "A controlled variable (constant) is a factor that remains the same throughout an experiment to ensure only the independent variable affects the dependent variable."}
+{"instruction": "Explain the difference between accuracy and precision", "input": "", "output": "Accuracy is how close measurements are to the true value. Precision is how close repeated measurements are to each other. You can be precise but not accurate, or vice versa."}
+{"instruction": "What is a hypothesis?", "input": "", "output": "A hypothesis is an educated guess or testable prediction about the relationship between variables, based on observations and prior knowledge."}
+{"instruction": "Why are control groups important in experiments?", "input": "", "output": "Control groups provide a baseline for comparison. They don't receive the experimental treatment, helping researchers determine if observed changes are due to the treatment."}
+{"instruction": "What are the base SI units?", "input": "", "output": "Base SI units: meter (length), kilogram (mass), second (time), ampere (current), kelvin (temperature), mole (amount), candela (luminosity)"}
+{"instruction": "Convert 25°C to Kelvin", "input": "", "output": "K = °C + 273.15, so 25°C = 25 + 273.15 = 298.15 K"}
+{"instruction": "Convert 2.5 km to meters", "input": "", "output": "1 km = 1000 m, so 2.5 km = 2.5 × 1000 = 2500 m"}
+{"instruction": "What is scientific notation?", "input": "", "output": "Scientific notation expresses numbers as a × 10ⁿ where 1 ≤ a < 10. For example, 5,000 = 5.0 × 10³"}
+{"instruction": "What is the function of the respiratory system?", "input": "", "output": "The respiratory system brings oxygen into the body and removes carbon dioxide. It includes lungs, trachea, bronchi, and alveoli where gas exchange occurs."}
+{"instruction": "How does the digestive system work?", "input": "", "output": "The digestive system breaks down food into nutrients. Food travels through mouth, esophagus, stomach (acid breakdown), small intestine (absorption), large intestine (water absorption)."}
+{"instruction": "What does the circulatory system do?", "input": "", "output": "The circulatory system transports oxygen, nutrients, hormones, and waste products throughout the body using the heart, blood vessels, and blood."}
+{"instruction": "Explain the function of the immune system", "input": "", "output": "The immune system protects against disease and infection using white blood cells, antibodies, and organs like lymph nodes to identify and destroy pathogens."}
+{"instruction": "What is homeostasis?", "input": "", "output": "Homeostasis is the body's ability to maintain stable internal conditions (temperature, pH, blood sugar) despite external changes through feedback mechanisms."}
+{"instruction": "What are the main macronutrients?", "input": "", "output": "The three macronutrients are: Carbohydrates (energy), Proteins (building/repair), and Fats (energy storage, insulation, vitamin absorption)."}
+{"instruction": "Why is water important for the human body?", "input": "", "output": "Water makes up 60% of body weight and is essential for: temperature regulation, joint lubrication, nutrient transport, waste removal, and cellular processes."}
+{"instruction": "What vitamins are fat-soluble?", "input": "", "output": "Fat-soluble vitamins are A, D, E, and K. They're stored in body fat and don't need daily replacement like water-soluble vitamins."}
+{"instruction": "Explain the role of fiber in diet", "input": "", "output": "Dietary fiber helps with digestion, prevents constipation, helps control blood sugar, lowers cholesterol, and may reduce disease risk."}
+{"instruction": "What is the difference between renewable and non-renewable energy?", "input": "", "output": "Renewable energy sources (solar, wind, hydro) naturally replenish and won't run out. Non-renewable sources (fossil fuels, nuclear) are finite."}
+{"instruction": "How do solar panels work?", "input": "", "output": "Solar panels contain photovoltaic cells that convert sunlight directly into electricity using the photoelectric effect. Light photons knock electrons free, creating electric current."}
+{"instruction": "Explain how a battery works", "input": "", "output": "Batteries store chemical energy and convert it to electrical energy through chemical reactions between electrodes and electrolyte."}
+{"instruction": "What is nuclear fission?", "input": "", "output": "Nuclear fission splits heavy atomic nuclei (like uranium) into lighter elements, releasing enormous amounts of energy used in power plants and weapons."}
+{"instruction": "What makes diamond so hard?", "input": "", "output": "Diamond's hardness comes from its crystal structure where each carbon atom bonds to four others in a tetrahedral arrangement, creating a strong 3D network."}
+{"instruction": "Why do metals conduct electricity?", "input": "", "output": "Metals conduct electricity because they have 'free' electrons that can move easily through the metal's crystal structure when voltage is applied."}
+{"instruction": "What are polymers?", "input": "", "output": "Polymers are large molecules made of repeating units (monomers) linked together. Examples include plastics, rubber, and biological molecules like proteins."}
+{"instruction": "Explain superconductivity", "input": "", "output": "Superconductivity is the ability of certain materials to conduct electricity with zero electrical resistance when cooled below a critical temperature."}
+{"instruction": "What is the electromagnetic spectrum?", "input": "", "output": "The electromagnetic spectrum includes all electromagnetic radiation: radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and gamma rays, in order of increasing frequency."}
+{"instruction": "Explain the Doppler effect", "input": "", "output": "The Doppler effect is the change in frequency of waves from a moving source. Frequency increases when source approaches observer, decreases when moving away."}
+{"instruction": "What is interference in waves?", "input": "", "output": "Wave interference occurs when two waves meet. Constructive interference adds amplitudes, destructive interference subtracts them, creating patterns of reinforcement and cancellation."}
+{"instruction": "How does fiber optic communication work?", "input": "", "output": "Fiber optics use total internal reflection to carry light signals through glass fibers. Light bounces off fiber walls, allowing data transmission over long distances with minimal loss."}
+{"instruction": "What is Einstein's theory of relativity?", "input": "", "output": "Einstein's theories include Special Relativity (space and time are relative, nothing travels faster than light) and General Relativity (gravity is curvature of spacetime)."}
+{"instruction": "Explain quantum mechanics basics", "input": "", "output": "Quantum mechanics describes behavior of matter and energy at atomic scale. Key principles: wave-particle duality, uncertainty principle, quantized energy levels."}
+{"instruction": "What is radioactive decay?", "input": "", "output": "Radioactive decay is the spontaneous breakdown of unstable atomic nuclei, releasing radiation (alpha, beta, or gamma) and transforming into different elements."}
+{"instruction": "What are the four fundamental forces?", "input": "", "output": "The four fundamental forces are: 1) Gravity (weakest, infinite range), 2) Electromagnetic, 3) Weak nuclear (radioactive decay), 4) Strong nuclear (holds nuclei together)."}
+{"instruction": "How many moles are in 51g of a substance with molar mass 18 g/mol?", "input": "", "output": "Moles = mass/molar mass = 51g / 18 g/mol = 2.83 mol"}
+{"instruction": "Calculate the molarity of a solution with 3 moles of solute in 6 L of solution", "input": "", "output": "Molarity = moles/volume = 3 mol / 6 L = 0.50 M"}
+{"instruction": "If pressure is 2 atm and volume is 22 L, what happens if pressure doubles?", "input": "", "output": "According to Boyle's Law (P₁V₁ = P₂V₂), if pressure doubles, volume halves: 11.0 L"}
+{"instruction": "How many moles are in 12g of a substance with molar mass 18 g/mol?", "input": "", "output": "Moles = mass/molar mass = 12g / 18 g/mol = 0.67 mol"}
+{"instruction": "Calculate the molarity of a solution with 3 moles of solute in 5 L of solution", "input": "", "output": "Molarity = moles/volume = 3 mol / 5 L = 0.60 M"}
+{"instruction": "If pressure is 3 atm and volume is 48 L, what happens if pressure doubles?", "input": "", "output": "According to Boyle's Law (P₁V₁ = P₂V₂), if pressure doubles, volume halves: 24.0 L"}
+{"instruction": "How many moles are in 80g of a substance with molar mass 44 g/mol?", "input": "", "output": "Moles = mass/molar mass = 80g / 44 g/mol = 1.82 mol"}
+{"instruction": "Calculate the molarity of a solution with 1 moles of solute in 5 L of solution", "input": "", "output": "Molarity = moles/volume = 1 mol / 5 L = 0.20 M"}
+{"instruction": "If pressure is 4 atm and volume is 27 L, what happens if pressure doubles?", "input": "", "output": "According to Boyle's Law (P₁V₁ = P₂V₂), if pressure doubles, volume halves: 13.5 L"}
+{"instruction": "How many moles are in 74g of a substance with molar mass 28 g/mol?", "input": "", "output": "Moles = mass/molar mass = 74g / 28 g/mol = 2.64 mol"}
+{"instruction": "Calculate the molarity of a solution with 3 moles of solute in 9 L of solution", "input": "", "output": "Molarity = moles/volume = 3 mol / 9 L = 0.33 M"}
+{"instruction": "If pressure is 4 atm and volume is 42 L, what happens if pressure doubles?", "input": "", "output": "According to Boyle's Law (P₁V₁ = P₂V₂), if pressure doubles, volume halves: 21.0 L"}
+{"instruction": "How many moles are in 86g of a substance with molar mass 44 g/mol?", "input": "", "output": "Moles = mass/molar mass = 86g / 44 g/mol = 1.95 mol"}
+{"instruction": "Calculate the molarity of a solution with 5 moles of solute in 5 L of solution", "input": "", "output": "Molarity = moles/volume = 5 mol / 5 L = 1.00 M"}
+{"instruction": "If pressure is 3 atm and volume is 12 L, what happens if pressure doubles?", "input": "", "output": "According to Boyle's Law (P₁V₁ = P₂V₂), if pressure doubles, volume halves: 6.0 L"}
+{"instruction": "What is a Punnett square used for?", "input": "", "output": "A Punnett square predicts the probability of offspring genotypes and phenotypes from a genetic cross between two parents."}
+{"instruction": "Explain codominance", "input": "", "output": "Codominance occurs when both alleles are fully expressed simultaneously. Example: AB blood type shows both A and B antigens."}
+{"instruction": "What is genetic drift?", "input": "", "output": "Genetic drift is random changes in allele frequencies in populations, especially pronounced in small populations, leading to evolution."}
+{"instruction": "Describe the structure of a chromosome", "input": "", "output": "Chromosomes consist of DNA wrapped around histone proteins, forming chromatin. They contain genes, centromeres, and telomeres."}
+{"instruction": "What is carrying capacity?", "input": "", "output": "Carrying capacity is the maximum population size an environment can sustain indefinitely with available resources."}
+{"instruction": "Explain primary vs secondary succession", "input": "", "output": "Primary succession occurs on bare rock/new land with no soil. Secondary succession occurs on previously inhabited areas with existing soil."}
+{"instruction": "What are biotic and abiotic factors?", "input": "", "output": "Biotic factors are living components (plants, animals, bacteria). Abiotic factors are non-living components (temperature, water, soil, light)."}
+{"instruction": "Define symbiosis and its types", "input": "", "output": "Symbiosis is close interaction between species. Types: mutualism (both benefit), commensalism (one benefits, other unaffected), parasitism (one benefits, other harmed)."}
+{"instruction": "Calculate speed if an object travels 394 meters in 7 seconds", "input": "", "output": "Speed = distance/time = 394 m / 7 s = 56.285714285714285 m/s"}
+{"instruction": "Find the density of an object with mass 197g and volume 43 cm³", "input": "", "output": "Density = mass/volume = 197 g / 43 cm³ = 4.6 g/cm³"}
+{"instruction": "Convert 59°C to Fahrenheit", "input": "", "output": "°F = (°C × 9/5) + 32 = (59 × 9/5) + 32 = 138.2°F"}
+{"instruction": "If a population of 626 increases by 41%, what is the new population?", "input": "", "output": "Increase = 626 × 41% = 626 × 0.41 = 257\nNew population = 626 + 257 = 883"}
+{"instruction": "Calculate work done when a force of 36 N moves an object 8 meters", "input": "", "output": "Work = Force × Distance = 36 N × 8 m = 288 J"}
+{"instruction": "Calculate speed if an object travels 321 meters in 4 seconds", "input": "", "output": "Speed = distance/time = 321 m / 4 s = 80.25 m/s"}
+{"instruction": "Find the density of an object with mass 447g and volume 15 cm³", "input": "", "output": "Density = mass/volume = 447 g / 15 cm³ = 29.8 g/cm³"}
+{"instruction": "Convert 50°C to Fahrenheit", "input": "", "output": "°F = (°C × 9/5) + 32 = (50 × 9/5) + 32 = 122.0°F"}
+{"instruction": "If a population of 365 increases by 49%, what is the new population?", "input": "", "output": "Increase = 365 × 49% = 365 × 0.49 = 179\nNew population = 365 + 179 = 544"}
+{"instruction": "Calculate work done when a force of 22 N moves an object 7 meters", "input": "", "output": "Work = Force × Distance = 22 N × 7 m = 154 J"}
+{"instruction": "Calculate speed if an object travels 555 meters in 5 seconds", "input": "", "output": "Speed = distance/time = 555 m / 5 s = 111.0 m/s"}
+{"instruction": "Find the density of an object with mass 144g and volume 16 cm³", "input": "", "output": "Density = mass/volume = 144 g / 16 cm³ = 9.0 g/cm³"}
+{"instruction": "Convert 20°C to Fahrenheit", "input": "", "output": "°F = (°C × 9/5) + 32 = (20 × 9/5) + 32 = 68.0°F"}
+{"instruction": "If a population of 716 increases by 41%, what is the new population?", "input": "", "output": "Increase = 716 × 41% = 716 × 0.41 = 294\nNew population = 716 + 294 = 1010"}
+{"instruction": "Calculate work done when a force of 30 N moves an object 19 meters", "input": "", "output": "Work = Force × Distance = 30 N × 19 m = 570 J"}
+{"instruction": "Calculate speed if an object travels 728 meters in 7 seconds", "input": "", "output": "Speed = distance/time = 728 m / 7 s = 104.0 m/s"}
+{"instruction": "Find the density of an object with mass 171g and volume 31 cm³", "input": "", "output": "Density = mass/volume = 171 g / 31 cm³ = 5.5 g/cm³"}
+{"instruction": "Convert 72°C to Fahrenheit", "input": "", "output": "°F = (°C × 9/5) + 32 = (72 × 9/5) + 32 = 161.6°F"}
+{"instruction": "If a population of 161 increases by 21%, what is the new population?", "input": "", "output": "Increase = 161 × 21% = 161 × 0.21 = 34\nNew population = 161 + 34 = 195"}
+{"instruction": "Calculate work done when a force of 14 N moves an object 3 meters", "input": "", "output": "Work = Force × Distance = 14 N × 3 m = 42 J"}
+{"instruction": "Calculate speed if an object travels 460 meters in 4 seconds", "input": "", "output": "Speed = distance/time = 460 m / 4 s = 115.0 m/s"}
+{"instruction": "Find the density of an object with mass 251g and volume 37 cm³", "input": "", "output": "Density = mass/volume = 251 g / 37 cm³ = 6.8 g/cm³"}
+{"instruction": "Convert 31°C to Fahrenheit", "input": "", "output": "°F = (°C × 9/5) + 32 = (31 × 9/5) + 32 = 87.8°F"}
+{"instruction": "If a population of 408 increases by 11%, what is the new population?", "input": "", "output": "Increase = 408 × 11% = 408 × 0.11 = 45\nNew population = 408 + 45 = 453"}
+{"instruction": "Calculate work done when a force of 42 N moves an object 9 meters", "input": "", "output": "Work = Force × Distance = 42 N × 9 m = 378 J"}
+{"instruction": "Calculate speed if an object travels 374 meters in 6 seconds", "input": "", "output": "Speed = distance/time = 374 m / 6 s = 62.333333333333336 m/s"}
+{"instruction": "Find the density of an object with mass 352g and volume 32 cm³", "input": "", "output": "Density = mass/volume = 352 g / 32 cm³ = 11.0 g/cm³"}
+{"instruction": "Convert 21°C to Fahrenheit", "input": "", "output": "°F = (°C × 9/5) + 32 = (21 × 9/5) + 32 = 69.8°F"}
+{"instruction": "If a population of 892 increases by 14%, what is the new population?", "input": "", "output": "Increase = 892 × 14% = 892 × 0.14 = 125\nNew population = 892 + 125 = 1017"}
+{"instruction": "Calculate work done when a force of 6 N moves an object 5 meters", "input": "", "output": "Work = Force × Distance = 6 N × 5 m = 30 J"}
+{"instruction": "Calculate speed if an object travels 998 meters in 8 seconds", "input": "", "output": "Speed = distance/time = 998 m / 8 s = 124.75 m/s"}
+{"instruction": "Find the density of an object with mass 379g and volume 16 cm³", "input": "", "output": "Density = mass/volume = 379 g / 16 cm³ = 23.7 g/cm³"}
+{"instruction": "Convert 97°C to Fahrenheit", "input": "", "output": "°F = (°C × 9/5) + 32 = (97 × 9/5) + 32 = 206.6°F"}
+{"instruction": "If a population of 621 increases by 35%, what is the new population?", "input": "", "output": "Increase = 621 × 35% = 621 × 0.35 = 217\nNew population = 621 + 217 = 838"}
+{"instruction": "Calculate work done when a force of 11 N moves an object 19 meters", "input": "", "output": "Work = Force × Distance = 11 N × 19 m = 209 J"}
+{"instruction": "Calculate speed if an object travels 565 meters in 4 seconds", "input": "", "output": "Speed = distance/time = 565 m / 4 s = 141.25 m/s"}
+{"instruction": "Find the density of an object with mass 461g and volume 29 cm³", "input": "", "output": "Density = mass/volume = 461 g / 29 cm³ = 15.9 g/cm³"}
+{"instruction": "Convert 60°C to Fahrenheit", "input": "", "output": "°F = (°C × 9/5) + 32 = (60 × 9/5) + 32 = 140.0°F"}
+{"instruction": "If a population of 912 increases by 39%, what is the new population?", "input": "", "output": "Increase = 912 × 39% = 912 × 0.39 = 356\nNew population = 912 + 356 = 1268"}
+{"instruction": "Calculate work done when a force of 44 N moves an object 18 meters", "input": "", "output": "Work = Force × Distance = 44 N × 18 m = 792 J"}
+{"instruction": "Calculate speed if an object travels 251 meters in 2 seconds", "input": "", "output": "Speed = distance/time = 251 m / 2 s = 125.5 m/s"}
+{"instruction": "Find the density of an object with mass 392g and volume 18 cm³", "input": "", "output": "Density = mass/volume = 392 g / 18 cm³ = 21.8 g/cm³"}
+{"instruction": "Convert 52°C to Fahrenheit", "input": "", "output": "°F = (°C × 9/5) + 32 = (52 × 9/5) + 32 = 125.6°F"}
+{"instruction": "If a population of 561 increases by 22%, what is the new population?", "input": "", "output": "Increase = 561 × 22% = 561 × 0.22 = 123\nNew population = 561 + 123 = 684"}
+{"instruction": "Calculate work done when a force of 50 N moves an object 4 meters", "input": "", "output": "Work = Force × Distance = 50 N × 4 m = 200 J"}
+{"instruction": "Calculate speed if an object travels 679 meters in 8 seconds", "input": "", "output": "Speed = distance/time = 679 m / 8 s = 84.875 m/s"}
+{"instruction": "Find the density of an object with mass 395g and volume 49 cm³", "input": "", "output": "Density = mass/volume = 395 g / 49 cm³ = 8.1 g/cm³"}
+{"instruction": "Convert 20°C to Fahrenheit", "input": "", "output": "°F = (°C × 9/5) + 32 = (20 × 9/5) + 32 = 68.0°F"}
+{"instruction": "If a population of 636 increases by 26%, what is the new population?", "input": "", "output": "Increase = 636 × 26% = 636 × 0.26 = 165\nNew population = 636 + 165 = 801"}
+{"instruction": "Calculate work done when a force of 24 N moves an object 14 meters", "input": "", "output": "Work = Force × Distance = 24 N × 14 m = 336 J"}
+{"instruction": "What is matter?", "input": "", "output": "Matter is anything that has mass and takes up space. It exists in states: solid, liquid, gas, and plasma."}
+{"instruction": "Define energy", "input": "", "output": "Energy is the ability to do work or cause change. It exists in many forms: kinetic, potential, thermal, chemical, electrical, and nuclear."}
+{"instruction": "What is density?", "input": "", "output": "Density is mass per unit volume (ρ = m/V). Objects with higher density than water sink; lower density objects float."}
+{"instruction": "Explain gravity", "input": "", "output": "Gravity is the attractive force between any two objects with mass. Earth's gravity gives objects weight and keeps us on the surface."}
+{"instruction": "What is friction?", "input": "", "output": "Friction is the force that opposes motion between surfaces in contact. It depends on surface roughness and normal force."}
+{"instruction": "Define acceleration", "input": "", "output": "Acceleration is the rate of change of velocity. It occurs when speed changes, direction changes, or both change."}
+{"instruction": "What is pressure?", "input": "", "output": "Pressure is force applied over an area (P = F/A). It's measured in pascals (Pa) or other units like mmHg or atm."}
+{"instruction": "Explain buoyancy", "input": "", "output": "Buoyancy is the upward force exerted by fluids on immersed objects. Objects float if buoyant force equals their weight."}
+{"instruction": "What is the purpose of a control in an experiment?", "input": "", "output": "A control provides a baseline for comparison, showing what happens without the experimental treatment to determine if changes are due to the variable being tested."}
+{"instruction": "How does a microscope magnify objects?", "input": "", "output": "Microscopes use lenses to bend light and magnify objects. Compound microscopes have objective and eyepiece lenses that work together to produce high magnification."}
+{"instruction": "What is chromatography used for?", "input": "", "output": "Chromatography separates mixtures based on different rates of movement through a medium. It's used to identify and purify substances."}
+{"instruction": "Explain the purpose of distillation", "input": "", "output": "Distillation separates liquids with different boiling points by heating the mixture and condensing the vapors at different temperatures."}
+{"instruction": "What causes ozone depletion?", "input": "", "output": "Ozone depletion is caused by chlorofluorocarbons (CFCs) and other chemicals that break down ozone (O₃) in the stratosphere, reducing protection from UV radiation."}
+{"instruction": "Explain eutrophication", "input": "", "output": "Eutrophication occurs when excess nutrients (nitrogen, phosphorus) enter water bodies, causing algae blooms that deplete oxygen and harm aquatic life."}
+{"instruction": "What is biomagnification?", "input": "", "output": "Biomagnification is the increase in concentration of toxins as they move up the food chain. Top predators accumulate the highest concentrations."}
+{"instruction": "How does deforestation affect climate?", "input": "", "output": "Deforestation increases atmospheric CO₂ (trees no longer absorb it), reduces oxygen production, and eliminates carbon storage, contributing to global warming."}
+{"instruction": "What is centripetal force?", "input": "", "output": "Centripetal force is the inward force required to keep an object moving in a circular path. It's always directed toward the center of the circle."}
+{"instruction": "Explain resonance", "input": "", "output": "Resonance occurs when an object vibrates at its natural frequency due to periodic force application, causing large amplitude oscillations."}
+{"instruction": "What is refraction?", "input": "", "output": "Refraction is the bending of light when it passes from one medium to another with different density, changing the light's speed and direction."}
+{"instruction": "Define half-life", "input": "", "output": "Half-life is the time required for half of a radioactive sample to decay. Each radioactive isotope has a characteristic half-life."}
+{"instruction": "What is oxidation?", "input": "", "output": "Oxidation is the loss of electrons by an atom, molecule, or ion. It often involves gaining oxygen or losing hydrogen."}
+{"instruction": "Explain Le Chatelier's principle", "input": "", "output": "Le Chatelier's principle states that when a system at equilibrium is disturbed, it will shift to counteract the disturbance and restore equilibrium."}
+{"instruction": "What are isomers?", "input": "", "output": "Isomers are compounds with the same molecular formula but different structural arrangements, resulting in different properties."}
+{"instruction": "Define molarity", "input": "", "output": "Molarity is the concentration of a solution expressed as moles of solute per liter of solution (M = mol/L)."}
+{"instruction": "What is photosynthesis?", "input": "", "output": "Photosynthesis is the process where plants convert light energy, CO₂, and water into glucose and oxygen using chlorophyll in chloroplasts."}
+{"instruction": "Explain enzyme specificity", "input": "", "output": "Enzyme specificity means each enzyme typically catalyzes only one type of reaction due to its unique active site shape that fits specific substrates."}
+{"instruction": "What is ATP?", "input": "", "output": "ATP (Adenosine Triphosphate) is the cell's energy currency. It stores and releases energy when phosphate bonds are broken or formed."}
+{"instruction": "Define mutation", "input": "", "output": "A mutation is a change in DNA sequence that can occur naturally or due to environmental factors. It may be beneficial, harmful, or neutral."}
+{"instruction": "What is escape velocity?", "input": "", "output": "Escape velocity is the minimum speed needed for an object to escape a celestial body's gravitational pull. For Earth, it's about 11.2 km/s."}
+{"instruction": "How do rockets work in space?", "input": "", "output": "Rockets work by Newton's third law: they expel mass (exhaust) in one direction, creating thrust in the opposite direction. No air is needed."}
+{"instruction": "What is a satellite orbit?", "input": "", "output": "A satellite orbit occurs when an object's forward motion balances gravitational pull, causing it to continuously fall around but never hit the central body."}
+{"instruction": "Explain the greenhouse effect on Venus", "input": "", "output": "Venus has a runaway greenhouse effect due to its thick CO₂ atmosphere, trapping heat and making surface temperatures around 462°C (864°F)."}
+{"instruction": "What causes meteor showers?", "input": "", "output": "Meteor showers occur when Earth passes through debris trails left by comets. The debris burns up in our atmosphere, creating streaks of light."}
+{"instruction": "How do we measure distances to stars?", "input": "", "output": "Stellar distances are measured using parallax (nearby stars), standard candles like Cepheid variables (medium distances), and redshift (distant objects)."}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}
+{"instruction": "What type of animal is a whale?", "input": "", "output": "Whales are mammals, not fish. They are warm-blooded, breathe air, and nurse their young with milk"}
+{"instruction": "What is the speed of sound in air?", "input": "", "output": "The speed of sound in air at room temperature is approximately 343 meters per second (1,125 feet per second)"}
+{"instruction": "What is the chemical symbol for gold?", "input": "", "output": "The chemical symbol for gold is Au (from the Latin aurum)"}
+{"instruction": "What gas do plants absorb during photosynthesis?", "input": "", "output": "Plants absorb carbon dioxide (CO₂) during photosynthesis"}
+{"instruction": "What is the hardest natural substance?", "input": "", "output": "Diamond is the hardest natural substance, rating 10 on the Mohs hardness scale"}

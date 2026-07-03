@@ -1,0 +1,170 @@
+{"text": "The quick brown fox jumps over the lazy dog.", "source": "tokenizer_training", "category": "basic_language", "sample_id": "tok_train_0000"}
+{"text": "Pack my box with five dozen liquor jugs.", "source": "tokenizer_training", "category": "basic_language", "sample_id": "tok_train_0001"}
+{"text": "How vexingly quick daft zebras jump!", "source": "tokenizer_training", "category": "basic_language", "sample_id": "tok_train_0002"}
+{"text": "Bright vixens jump; dozy fowl quack.", "source": "tokenizer_training", "category": "basic_language", "sample_id": "tok_train_0003"}
+{"text": "Sphinx of black quartz, judge my vow.", "source": "tokenizer_training", "category": "basic_language", "sample_id": "tok_train_0004"}
+{"text": "Waltz, bad nymph, for quick jigs vex.", "source": "tokenizer_training", "category": "basic_language", "sample_id": "tok_train_0005"}
+{"text": "Glib jocks quiz nymph to vex dwarf.", "source": "tokenizer_training", "category": "basic_language", "sample_id": "tok_train_0006"}
+{"text": "Two driven jocks help fax my big quiz.", "source": "tokenizer_training", "category": "basic_language", "sample_id": "tok_train_0007"}
+{"text": "The five boxing wizards jump quickly.", "source": "tokenizer_training", "category": "basic_language", "sample_id": "tok_train_0008"}
+{"text": "Jackdaws love my big sphinx of quartz.", "source": "tokenizer_training", "category": "basic_language", "sample_id": "tok_train_0009"}
+{"text": "Actions speak louder than words, but sometimes silence is golden.", "source": "tokenizer_training", "category": "basic_language", "sample_id": "tok_train_0010"}
+{"text": "A penny saved is a penny earned, according to Benjamin Franklin.", "source": "tokenizer_training", "category": "basic_language", "sample_id": "tok_train_0011"}
+{"text": "Don't count your chickens before they hatch, as my grandmother always said.", "source": "tokenizer_training", "category": "basic_language", "sample_id": "tok_train_0012"}
+{"text": "The early bird catches the worm, but the second mouse gets the cheese.", "source": "tokenizer_training", "category": "basic_language", "sample_id": "tok_train_0013"}
+{"text": "When life gives you lemons, make lemonade and find someone whose life gave them vodka.", "source": "tokenizer_training", "category": "basic_language", "sample_id": "tok_train_0014"}
+{"text": "Rome wasn't built in a day, and neither was any other great city.", "source": "tokenizer_training", "category": "basic_language", "sample_id": "tok_train_0015"}
+{"text": "Beauty is in the eye of the beholder, though taste varies widely among people.", "source": "tokenizer_training", "category": "basic_language", "sample_id": "tok_train_0016"}
+{"text": "You can't judge a book by its cover, but first impressions often matter.", "source": "tokenizer_training", "category": "basic_language", "sample_id": "tok_train_0017"}
+{"text": "The grass is always greener on the other side of the fence.", "source": "tokenizer_training", "category": "basic_language", "sample_id": "tok_train_0018"}
+{"text": "Time flies when you're having fun, but drags when you're bored.", "source": "tokenizer_training", "category": "basic_language", "sample_id": "tok_train_0019"}
+{"text": "Although it was raining heavily, she decided to walk to the store anyway.", "source": "tokenizer_training", "category": "basic_language", "sample_id": "tok_train_0020"}
+{"text": "The cat, which had been sleeping peacefully, suddenly jumped up and ran away.", "source": "tokenizer_training", "category": "basic_language", "sample_id": "tok_train_0021"}
+{"text": "Because the weather was perfect, we planned a picnic in the park for Sunday.", "source": "tokenizer_training", "category": "basic_language", "sample_id": "tok_train_0022"}
+{"text": "If you study hard and practice regularly, you will definitely succeed in your exams.", "source": "tokenizer_training", "category": "basic_language", "sample_id": "tok_train_0023"}
+{"text": "While some people prefer coffee, others enjoy tea, and many like both beverages.", "source": "tokenizer_training", "category": "basic_language", "sample_id": "tok_train_0024"}
+{"text": "The book that I bought yesterday was written by a famous author from Ireland.", "source": "tokenizer_training", "category": "basic_language", "sample_id": "tok_train_0025"}
+{"text": "Since we arrived early, we had time to explore the museum before the tour began.", "source": "tokenizer_training", "category": "basic_language", "sample_id": "tok_train_0026"}
+{"text": "Whether you choose the red car or the blue one, both vehicles are excellent.", "source": "tokenizer_training", "category": "basic_language", "sample_id": "tok_train_0027"}
+{"text": "Unless it rains tomorrow, we will go hiking in the mountains as planned.", "source": "tokenizer_training", "category": "basic_language", "sample_id": "tok_train_0028"}
+{"text": "After the movie ended, everyone discussed the plot and shared their opinions.", "source": "tokenizer_training", "category": "basic_language", "sample_id": "tok_train_0029"}
+{"text": "The magnificent sunset painted the sky in brilliant shades of orange, pink, and purple.", "source": "tokenizer_training", "category": "basic_language", "sample_id": "tok_train_0030"}
+{"text": "Simple. Clean. Effective. That's how good design should work in practice.", "source": "tokenizer_training", "category": "basic_language", "sample_id": "tok_train_0031"}
+{"text": "What is art? Is it beauty? Expression? Revolution? Perhaps it's all of these things.", "source": "tokenizer_training", "category": "basic_language", "sample_id": "tok_train_0032"}
+{"text": "ATTENTION: This message contains important information about your account status.", "source": "tokenizer_training", "category": "basic_language", "sample_id": "tok_train_0033"}
+{"text": "In conclusion, the evidence strongly supports our hypothesis about climate change.", "source": "tokenizer_training", "category": "basic_language", "sample_id": "tok_train_0034"}
+{"text": "Dear Customer, we are writing to inform you about updates to our privacy policy.", "source": "tokenizer_training", "category": "basic_language", "sample_id": "tok_train_0035"}
+{"text": "Chapter 1: The Beginning of an Unexpected Adventure in a Small Town.", "source": "tokenizer_training", "category": "basic_language", "sample_id": "tok_train_0036"}
+{"text": "ERROR 404: The page you are looking for cannot be found on this server.", "source": "tokenizer_training", "category": "basic_language", "sample_id": "tok_train_0037"}
+{"text": "Recipe: Chocolate Chip Cookies - Ingredients: flour, butter, sugar, eggs, chocolate chips.", "source": "tokenizer_training", "category": "basic_language", "sample_id": "tok_train_0038"}
+{"text": "Breaking News: Local scientist discovers new species of butterfly in Amazon rainforest.", "source": "tokenizer_training", "category": "basic_language", "sample_id": "tok_train_0039"}
+{"text": "The number 1 multiplied by 2 equals 2, and 1 plus 6 equals 7.", "source": "tokenizer_training", "category": "mathematics_science", "sample_id": "tok_train_0040"}
+{"text": "The number 2 multiplied by 2 equals 4, and 2 plus 7 equals 9.", "source": "tokenizer_training", "category": "mathematics_science", "sample_id": "tok_train_0041"}
+{"text": "The number 3 multiplied by 2 equals 6, and 3 plus 8 equals 11.", "source": "tokenizer_training", "category": "mathematics_science", "sample_id": "tok_train_0042"}
+{"text": "The number 4 multiplied by 2 equals 8, and 4 plus 9 equals 13.", "source": "tokenizer_training", "category": "mathematics_science", "sample_id": "tok_train_0043"}
+{"text": "The number 5 multiplied by 2 equals 10, and 5 plus 10 equals 15.", "source": "tokenizer_training", "category": "mathematics_science", "sample_id": "tok_train_0044"}
+{"text": "The number 6 multiplied by 2 equals 12, and 6 plus 11 equals 17.", "source": "tokenizer_training", "category": "mathematics_science", "sample_id": "tok_train_0045"}
+{"text": "The number 7 multiplied by 2 equals 14, and 7 plus 12 equals 19.", "source": "tokenizer_training", "category": "mathematics_science", "sample_id": "tok_train_0046"}
+{"text": "The number 8 multiplied by 2 equals 16, and 8 plus 13 equals 21.", "source": "tokenizer_training", "category": "mathematics_science", "sample_id": "tok_train_0047"}
+{"text": "The number 9 multiplied by 2 equals 18, and 9 plus 14 equals 23.", "source": "tokenizer_training", "category": "mathematics_science", "sample_id": "tok_train_0048"}
+{"text": "The number 10 multiplied by 2 equals 20, and 10 plus 15 equals 25.", "source": "tokenizer_training", "category": "mathematics_science", "sample_id": "tok_train_0049"}
+{"text": "Solve: 3x + 7 = 22, therefore x = 5.", "source": "tokenizer_training", "category": "mathematics_science", "sample_id": "tok_train_0090"}
+{"text": "Calculate: (15 + 25) ÷ 4 = 10.", "source": "tokenizer_training", "category": "mathematics_science", "sample_id": "tok_train_0091"}
+{"text": "Evaluate: 2^3 + 4^2 = 8 + 16 = 24.", "source": "tokenizer_training", "category": "mathematics_science", "sample_id": "tok_train_0092"}
+{"text": "Simplify: (x + 3)(x - 2) = x^2 + x - 6.", "source": "tokenizer_training", "category": "mathematics_science", "sample_id": "tok_train_0093"}
+{"text": "Find: The derivative of x^2 is 2x.", "source": "tokenizer_training", "category": "mathematics_science", "sample_id": "tok_train_0094"}
+{"text": "Integrate: ∫ 2x dx = x^2 + C.", "source": "tokenizer_training", "category": "mathematics_science", "sample_id": "tok_train_0095"}
+{"text": "Series: 1 + 1/2 + 1/4 + 1/8 = 15/8.", "source": "tokenizer_training", "category": "mathematics_science", "sample_id": "tok_train_0096"}
+{"text": "Limit: lim (x→0) sin(x)/x = 1.", "source": "tokenizer_training", "category": "mathematics_science", "sample_id": "tok_train_0097"}
+{"text": "Matrix: [[1,2],[3,4]] * [[5],[6]] = [[17],[39]].", "source": "tokenizer_training", "category": "mathematics_science", "sample_id": "tok_train_0098"}
+{"text": "Complex: (3 + 4i) * (1 - 2i) = 11 - 2i.", "source": "tokenizer_training", "category": "mathematics_science", "sample_id": "tok_train_0099"}
+{"text": "Newton's second law: F = ma, where F is force, m is mass, a is acceleration.", "source": "tokenizer_training", "category": "mathematics_science", "sample_id": "tok_train_0100"}
+{"text": "Einstein's mass-energy equivalence: E = mc^2, where c is the speed of light.", "source": "tokenizer_training", "category": "mathematics_science", "sample_id": "tok_train_0101"}
+{"text": "Ohm's law: V = IR, relating voltage, current, and resistance in electrical circuits.", "source": "tokenizer_training", "category": "mathematics_science", "sample_id": "tok_train_0102"}
+{"text": "Ideal gas law: PV = nRT, connecting pressure, volume, temperature, and moles.", "source": "tokenizer_training", "category": "mathematics_science", "sample_id": "tok_train_0103"}
+{"text": "Pythagorean theorem: a^2 + b^2 = c^2 for right triangles with sides a, b, hypotenuse c.", "source": "tokenizer_training", "category": "mathematics_science", "sample_id": "tok_train_0104"}
+{"text": "Chemical equation: 2H2 + O2 → 2H2O represents the formation of water.", "source": "tokenizer_training", "category": "mathematics_science", "sample_id": "tok_train_0105"}
+{"text": "DNA base pairs: Adenine pairs with Thymine, Guanine pairs with Cytosine.", "source": "tokenizer_training", "category": "mathematics_science", "sample_id": "tok_train_0106"}
+{"text": "Photosynthesis: 6CO2 + 6H2O + light energy → C6H12O6 + 6O2.", "source": "tokenizer_training", "category": "mathematics_science", "sample_id": "tok_train_0107"}
+{"text": "Periodic table: Elements arranged by atomic number, showing periodic properties.", "source": "tokenizer_training", "category": "mathematics_science", "sample_id": "tok_train_0108"}
+{"text": "Evolution: Natural selection drives changes in species over geological time.", "source": "tokenizer_training", "category": "mathematics_science", "sample_id": "tok_train_0109"}
+{"text": "Hydrogen (H), Helium (He), Lithium (Li), Beryllium (Be), Boron (B), Carbon (C).", "source": "tokenizer_training", "category": "mathematics_science", "sample_id": "tok_train_0110"}
+{"text": "Water (H2O), Carbon dioxide (CO2), Methane (CH4), Ammonia (NH3), Salt (NaCl).", "source": "tokenizer_training", "category": "mathematics_science", "sample_id": "tok_train_0111"}
+{"text": "Acids: Hydrochloric (HCl), Sulfuric (H2SO4), Nitric (HNO3), Acetic (CH3COOH).", "source": "tokenizer_training", "category": "mathematics_science", "sample_id": "tok_train_0112"}
+{"text": "Bases: Sodium hydroxide (NaOH), Potassium hydroxide (KOH), Ammonia (NH3).", "source": "tokenizer_training", "category": "mathematics_science", "sample_id": "tok_train_0113"}
+{"text": "Organic compounds: Ethane (C2H6), Propane (C3H8), Butane (C4H10), Pentane (C5H12).", "source": "tokenizer_training", "category": "mathematics_science", "sample_id": "tok_train_0114"}
+{"text": "Mechanics: velocity, acceleration, momentum, force, energy, work, power, torque.", "source": "tokenizer_training", "category": "mathematics_science", "sample_id": "tok_train_0115"}
+{"text": "Thermodynamics: temperature, heat, entropy, enthalpy, specific heat, thermal conductivity.", "source": "tokenizer_training", "category": "mathematics_science", "sample_id": "tok_train_0116"}
+{"text": "Electromagnetism: electric field, magnetic field, current, voltage, resistance, capacitance.", "source": "tokenizer_training", "category": "mathematics_science", "sample_id": "tok_train_0117"}
+{"text": "Optics: reflection, refraction, diffraction, interference, polarization, wavelength, frequency.", "source": "tokenizer_training", "category": "mathematics_science", "sample_id": "tok_train_0118"}
+{"text": "Quantum mechanics: wave function, uncertainty principle, quantum tunneling, superposition.", "source": "tokenizer_training", "category": "mathematics_science", "sample_id": "tok_train_0119"}
+{"text": "Python is a high-level programming language known for its simplicity and readability.", "source": "tokenizer_training", "category": "technology", "sample_id": "tok_train_0120"}
+{"text": "JavaScript enables interactive web pages and is an essential part of web development.", "source": "tokenizer_training", "category": "technology", "sample_id": "tok_train_0121"}
+{"text": "Java is a object-oriented language that runs on the Java Virtual Machine (JVM).", "source": "tokenizer_training", "category": "technology", "sample_id": "tok_train_0122"}
+{"text": "C++ extends C with object-oriented programming features and is used for system programming.", "source": "tokenizer_training", "category": "technology", "sample_id": "tok_train_0123"}
+{"text": "HTML (HyperText Markup Language) structures content on web pages using tags and elements.", "source": "tokenizer_training", "category": "technology", "sample_id": "tok_train_0124"}
+{"text": "CSS (Cascading Style Sheets) controls the visual appearance and layout of web pages.", "source": "tokenizer_training", "category": "technology", "sample_id": "tok_train_0125"}
+{"text": "SQL (Structured Query Language) is used to manage and query relational databases.", "source": "tokenizer_training", "category": "technology", "sample_id": "tok_train_0126"}
+{"text": "R is a statistical programming language popular in data science and analytics.", "source": "tokenizer_training", "category": "technology", "sample_id": "tok_train_0127"}
+{"text": "Swift is Apple's programming language for iOS and macOS application development.", "source": "tokenizer_training", "category": "technology", "sample_id": "tok_train_0128"}
+{"text": "Go (Golang) is designed for concurrent programming and scalable network services.", "source": "tokenizer_training", "category": "technology", "sample_id": "tok_train_0129"}
+{"text": "Arrays store elements in contiguous memory locations with constant-time access.", "source": "tokenizer_training", "category": "technology", "sample_id": "tok_train_0130"}
+{"text": "Linked lists consist of nodes containing data and pointers to the next node.", "source": "tokenizer_training", "category": "technology", "sample_id": "tok_train_0131"}
+{"text": "Stacks follow Last-In-First-Out (LIFO) principle with push and pop operations.", "source": "tokenizer_training", "category": "technology", "sample_id": "tok_train_0132"}
+{"text": "Queues follow First-In-First-Out (FIFO) principle with enqueue and dequeue operations.", "source": "tokenizer_training", "category": "technology", "sample_id": "tok_train_0133"}
+{"text": "Trees are hierarchical data structures with nodes connected by edges.", "source": "tokenizer_training", "category": "technology", "sample_id": "tok_train_0134"}
+{"text": "Graphs consist of vertices (nodes) connected by edges, used to model relationships.", "source": "tokenizer_training", "category": "technology", "sample_id": "tok_train_0135"}
+{"text": "Hash tables provide average O(1) lookup time using hash functions to map keys.", "source": "tokenizer_training", "category": "technology", "sample_id": "tok_train_0136"}
+{"text": "Binary search divides the search space in half with each comparison, O(log n) time.", "source": "tokenizer_training", "category": "technology", "sample_id": "tok_train_0137"}
+{"text": "Quick sort uses divide-and-conquer approach with average O(n log n) time complexity.", "source": "tokenizer_training", "category": "technology", "sample_id": "tok_train_0138"}
+{"text": "Dynamic programming solves complex problems by breaking them into simpler subproblems.", "source": "tokenizer_training", "category": "technology", "sample_id": "tok_train_0139"}
+{"text": "Metaphor directly compares two unlike things: 'Life is a journey through unknown territories.'", "source": "tokenizer_training", "category": "academic", "sample_id": "tok_train_0245"}
+{"text": "Simile compares using 'like' or 'as': 'Her voice was as sweet as honey.'", "source": "tokenizer_training", "category": "academic", "sample_id": "tok_train_0246"}
+{"text": "Personification gives human qualities to non-human things: 'The wind whispered secrets.'", "source": "tokenizer_training", "category": "academic", "sample_id": "tok_train_0247"}
+{"text": "Alliteration repeats initial consonant sounds: 'Peter Piper picked a peck of pickled peppers.'", "source": "tokenizer_training", "category": "academic", "sample_id": "tok_train_0248"}
+{"text": "Onomatopoeia words imitate sounds: buzz, crash, sizzle, whisper, thunder, splash.", "source": "tokenizer_training", "category": "academic", "sample_id": "tok_train_0249"}
+{"text": "Irony involves contrast between expectation and reality in literature and speech.", "source": "tokenizer_training", "category": "academic", "sample_id": "tok_train_0250"}
+{"text": "Symbolism uses objects or actions to represent deeper meanings and themes.", "source": "tokenizer_training", "category": "academic", "sample_id": "tok_train_0251"}
+{"text": "Foreshadowing hints at future events in narrative to create suspense and anticipation.", "source": "tokenizer_training", "category": "academic", "sample_id": "tok_train_0252"}
+{"text": "Character development shows how protagonists change throughout the story's progression.", "source": "tokenizer_training", "category": "academic", "sample_id": "tok_train_0253"}
+{"text": "Theme is the central message or meaning that the author conveys to readers.", "source": "tokenizer_training", "category": "academic", "sample_id": "tok_train_0254"}
+{"text": "Renaissance period (14th-17th centuries) marked rebirth of art, science, and learning in Europe.", "source": "tokenizer_training", "category": "academic", "sample_id": "tok_train_0255"}
+{"text": "Industrial Revolution transformed agricultural societies into modern industrial economies.", "source": "tokenizer_training", "category": "academic", "sample_id": "tok_train_0256"}
+{"text": "World War I (1914-1918) involved major world powers in unprecedented global conflict.", "source": "tokenizer_training", "category": "academic", "sample_id": "tok_train_0257"}
+{"text": "Civil Rights Movement fought for equal rights and treatment of African Americans.", "source": "tokenizer_training", "category": "academic", "sample_id": "tok_train_0258"}
+{"text": "Cold War (1947-1991) was ideological conflict between United States and Soviet Union.", "source": "tokenizer_training", "category": "academic", "sample_id": "tok_train_0259"}
+{"text": "Ancient civilizations: Egypt, Mesopotamia, Greece, Rome, Indus Valley, China, Maya.", "source": "tokenizer_training", "category": "academic", "sample_id": "tok_train_0260"}
+{"text": "Democratic principles include separation of powers, checks and balances, individual rights.", "source": "tokenizer_training", "category": "academic", "sample_id": "tok_train_0261"}
+{"text": "Economic systems: capitalism, socialism, communism, mixed economies, market structures.", "source": "tokenizer_training", "category": "academic", "sample_id": "tok_train_0262"}
+{"text": "Cultural diffusion spreads ideas, customs, and technologies between different societies.", "source": "tokenizer_training", "category": "academic", "sample_id": "tok_train_0263"}
+{"text": "Historical methodology involves analyzing primary sources, evidence, and different perspectives.", "source": "tokenizer_training", "category": "academic", "sample_id": "tok_train_0264"}
+{"text": "Scientific method involves observation, hypothesis formation, experimentation, and conclusion.", "source": "tokenizer_training", "category": "academic", "sample_id": "tok_train_0265"}
+{"text": "Peer review process evaluates research quality before publication in academic journals.", "source": "tokenizer_training", "category": "academic", "sample_id": "tok_train_0266"}
+{"text": "Control variables remain constant while independent variables are manipulated in experiments.", "source": "tokenizer_training", "category": "academic", "sample_id": "tok_train_0267"}
+{"text": "Statistical significance indicates whether results are likely due to chance or real effects.", "source": "tokenizer_training", "category": "academic", "sample_id": "tok_train_0268"}
+{"text": "Research ethics ensure participant safety, informed consent, and data confidentiality.", "source": "tokenizer_training", "category": "academic", "sample_id": "tok_train_0269"}
+{"text": "Meta-analysis combines results from multiple studies to identify broader patterns.", "source": "tokenizer_training", "category": "academic", "sample_id": "tok_train_0270"}
+{"text": "Longitudinal studies follow subjects over extended periods to observe changes over time.", "source": "tokenizer_training", "category": "academic", "sample_id": "tok_train_0271"}
+{"text": "Correlation measures relationship strength between variables without implying causation.", "source": "tokenizer_training", "category": "academic", "sample_id": "tok_train_0272"}
+{"text": "Experimental design includes randomization, blinding, and control groups for validity.", "source": "tokenizer_training", "category": "academic", "sample_id": "tok_train_0273"}
+{"text": "Literature review synthesizes existing research to identify gaps and establish context.", "source": "tokenizer_training", "category": "academic", "sample_id": "tok_train_0274"}
+{"text": "Hello! How are you doing today? I hope you're having a wonderful morning so far.", "source": "tokenizer_training", "category": "conversation", "sample_id": "tok_train_0380"}
+{"text": "Good afternoon! It's such a pleasure to meet you. May I ask what brings you here?", "source": "tokenizer_training", "category": "conversation", "sample_id": "tok_train_0381"}
+{"text": "Hi there! Welcome to our store. Is there anything specific I can help you find today?", "source": "tokenizer_training", "category": "conversation", "sample_id": "tok_train_0382"}
+{"text": "Excuse me, could you please help me? I'm looking for the nearest subway station.", "source": "tokenizer_training", "category": "conversation", "sample_id": "tok_train_0383"}
+{"text": "Thank you so much for your assistance! I really appreciate you taking the time to help me.", "source": "tokenizer_training", "category": "conversation", "sample_id": "tok_train_0384"}
+{"text": "I'm sorry, but I don't think I understand. Could you please explain that again?", "source": "tokenizer_training", "category": "conversation", "sample_id": "tok_train_0385"}
+{"text": "Certainly! I'd be happy to help you with that. Let me see what I can do.", "source": "tokenizer_training", "category": "conversation", "sample_id": "tok_train_0386"}
+{"text": "Have a great day! It was lovely talking with you. Take care and see you soon!", "source": "tokenizer_training", "category": "conversation", "sample_id": "tok_train_0387"}
+{"text": "Nice weather we're having, isn't it? Perfect day for a walk in the park.", "source": "tokenizer_training", "category": "conversation", "sample_id": "tok_train_0388"}
+{"text": "How was your weekend? Did you do anything interesting or just relax at home?", "source": "tokenizer_training", "category": "conversation", "sample_id": "tok_train_0389"}
+{"text": "What time does the library close? The library closes at 9 PM on weekdays and 5 PM on weekends.", "source": "tokenizer_training", "category": "conversation", "sample_id": "tok_train_0390"}
+{"text": "Where is the nearest coffee shop? There's a great café just two blocks north on Main Street.", "source": "tokenizer_training", "category": "conversation", "sample_id": "tok_train_0391"}
+{"text": "How do I get to the airport? Take the blue line metro directly to the airport terminal.", "source": "tokenizer_training", "category": "conversation", "sample_id": "tok_train_0392"}
+{"text": "Can you recommend a good restaurant? I highly recommend the Italian place on Fifth Avenue.", "source": "tokenizer_training", "category": "conversation", "sample_id": "tok_train_0393"}
+{"text": "What's the weather forecast for tomorrow? Tomorrow will be sunny with temperatures around 75 degrees.", "source": "tokenizer_training", "category": "conversation", "sample_id": "tok_train_0394"}
+{"text": "How much does this cost? The regular price is $29.99, but it's currently on sale for $19.99.", "source": "tokenizer_training", "category": "conversation", "sample_id": "tok_train_0395"}
+{"text": "Is there wifi available here? Yes, the network name is 'FreeWifi' and no password is required.", "source": "tokenizer_training", "category": "conversation", "sample_id": "tok_train_0396"}
+{"text": "What are your business hours? We're open Monday through Friday from 9 AM to 6 PM.", "source": "tokenizer_training", "category": "conversation", "sample_id": "tok_train_0397"}
+{"text": "Do you accept credit cards? We accept all major credit cards and mobile payment options.", "source": "tokenizer_training", "category": "conversation", "sample_id": "tok_train_0398"}
+{"text": "Can I return this if it doesn't fit? Yes, you have 30 days to return items with the receipt.", "source": "tokenizer_training", "category": "conversation", "sample_id": "tok_train_0399"}
+{"text": "To bake cookies, preheat oven to 350°F, mix ingredients, shape dough, and bake for 12 minutes.", "source": "tokenizer_training", "category": "conversation", "sample_id": "tok_train_0400"}
+{"text": "To change a tire, park safely, use jack to lift car, remove lug nuts, replace tire, lower car.", "source": "tokenizer_training", "category": "conversation", "sample_id": "tok_train_0401"}
+{"text": "To write an essay, create outline, write introduction, develop body paragraphs, conclude effectively.", "source": "tokenizer_training", "category": "conversation", "sample_id": "tok_train_0402"}
+{"text": "To solve this equation, isolate the variable by performing inverse operations on both sides.", "source": "tokenizer_training", "category": "conversation", "sample_id": "tok_train_0403"}
+{"text": "To improve your health, eat balanced meals, exercise regularly, get adequate sleep, manage stress.", "source": "tokenizer_training", "category": "conversation", "sample_id": "tok_train_0404"}
+{"text": "To learn a language, practice speaking daily, study grammar, expand vocabulary, immerse yourself.", "source": "tokenizer_training", "category": "conversation", "sample_id": "tok_train_0405"}
+{"text": "To save money, create budget, track expenses, reduce unnecessary purchases, increase income sources.", "source": "tokenizer_training", "category": "conversation", "sample_id": "tok_train_0406"}
+{"text": "To prepare for interview, research company, practice common questions, dress professionally, arrive early.", "source": "tokenizer_training", "category": "conversation", "sample_id": "tok_train_0407"}
+{"text": "To organize your space, declutter first, group similar items, assign specific places, maintain system.", "source": "tokenizer_training", "category": "conversation", "sample_id": "tok_train_0408"}
+{"text": "To plant a garden, choose location, prepare soil, select appropriate plants, water and maintain regularly.", "source": "tokenizer_training", "category": "conversation", "sample_id": "tok_train_0409"}
+{"text": "Punctuation examples: period. comma, semicolon; colon: question? exclamation! apostrophe's quotation\"marks\"", "source": "tokenizer_training", "category": "formatting", "sample_id": "tok_train_0460"}
+{"text": "Mathematical symbols: + - * / = ≠ < > ≤ ≥ ± × ÷ ∞ √ ² ³ % ‰ ° π α β γ δ ε λ μ σ φ ψ ω", "source": "tokenizer_training", "category": "formatting", "sample_id": "tok_train_0461"}
+{"text": "Currency and finance: $ € £ ¥ ₽ ₹ ₩ cents ¢ thousands K millions M billions B accounting numbers", "source": "tokenizer_training", "category": "formatting", "sample_id": "tok_train_0462"}
+{"text": "Parentheses (round), brackets [square], braces {curly}, angle <brackets> for different grouping purposes", "source": "tokenizer_training", "category": "formatting", "sample_id": "tok_train_0463"}
+{"text": "Quotation marks: \"double quotes\" and 'single quotes' for direct speech and emphasis in writing", "source": "tokenizer_training", "category": "formatting", "sample_id": "tok_train_0464"}
+{"text": "Hyphen-words, en–dashes, em—dashes, and ellipsis... for different types of breaks and pauses", "source": "tokenizer_training", "category": "formatting", "sample_id": "tok_train_0465"}
+{"text": "Lists with bullets: • first item • second item • third item or numbers: 1. item 2. item 3. item", "source": "tokenizer_training", "category": "formatting", "sample_id": "tok_train_0466"}
+{"text": "Email format: user@domain.com, websites: https://www.example.com, phone: (555) 123-4567", "source": "tokenizer_training", "category": "formatting", "sample_id": "tok_train_0467"}
+{"text": "Dates: 01/15/2024, January 15, 2024, 15-Jan-2024, 2024-01-15 ISO format variations", "source": "tokenizer_training", "category": "formatting", "sample_id": "tok_train_0468"}
+{"text": "Time formats: 3:30 PM, 15:30, 3:30:45, timestamps, duration 2h 30m 45s different conventions", "source": "tokenizer_training", "category": "formatting", "sample_id": "tok_train_0469"}

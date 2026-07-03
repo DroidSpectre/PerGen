@@ -1,0 +1,54 @@
+# LLM Dataset Creation Prompt
+
+Use this prompt to generate CSV datasets for training language models on specific topics:
+
+---
+
+**PROMPT:**
+
+You are a dataset creation assistant. Your task is to create a comprehensive CSV file containing high-quality training data for the topic: **[TOPIC]**
+
+**Requirements:**
+1. Generate exactly 500 rows of data in CSV format
+2. Use these column headers: `instruction,input,output`
+3. Create diverse, educational content appropriate for language model training
+4. Ensure all entries are factually accurate and well-structured
+5. Include varying difficulty levels from beginner to advanced
+6. Make instructions clear and specific
+7. Provide complete, helpful outputs that directly address each instruction
+
+**CSV Format:**
+```
+instruction,input,output
+"[Clear instruction/question]","[Additional context if needed, or leave empty]","[Complete, accurate response]"
+```
+
+**Content Guidelines:**
+- Instructions should be varied (explain, solve, analyze, create, compare, etc.)
+- Include both theoretical knowledge and practical applications
+- Ensure outputs are comprehensive but concise
+- Use proper grammar and formatting
+- Avoid controversial or sensitive topics
+- Include examples, step-by-step solutions where appropriate
+
+**Topic Focus: [TOPIC]**
+
+Generate the complete CSV dataset now, ensuring all 500 rows follow the specified format and contain high-quality content relevant to the topic.
+
+---
+
+## Usage Instructions:
+
+Replace **[TOPIC]** with one of these topics when using the prompt:
+- general knowledge
+- math  
+- science
+- coding
+- literature
+- reasoning
+- instruction
+
+## Example Usage:
+"Your task is to create a comprehensive CSV file containing high-quality training data for the topic: **math**"
+
+This prompt will generate a structured dataset suitable for fine-tuning language models on your Android device using TermuxTrain.

@@ -1,0 +1,159 @@
+# 🚀 QUICK START GUIDE: Universal CSV to JSONL Converter v4
+
+## YES! You can absolutely drop it in your datasets directory and auto-convert everything!
+
+## Method 1: Auto-Convert All CSVs in Directory (EASIEST)
+
+### Step 1: Place the script in your datasets directory
+```bash
+# Copy the converter to your datasets folder
+cp csv_converter_v4_universal.py /path/to/your/datasets/
+cd /path/to/your/datasets/
+```
+
+### Step 2: Run auto-conversion on all CSV files
+```bash
+# Convert ALL CSV files in current directory
+python csv_converter_v4_universal.py . --batch
+
+# This will:
+# - Find all *.csv files automatically
+# - Detect their format (alpaca, Q&A, text, etc.)
+# - Convert each CSV to a matching .jsonl file
+# - Show progress for each file
+```
+
+### Step 3: Results
+```
+Your directory structure will look like:
+datasets/
+├── csv_converter_v4_universal.py
+├── math_dataset.csv → math_dataset.jsonl ✅
+├── science_data.csv → science_data.jsonl ✅
+├── literature.csv → literature.jsonl ✅
+└── reasoning.csv → reasoning.jsonl ✅
+```
+
+## Method 2: Convert Single Files
+
+```bash
+# Convert one specific file
+python csv_converter_v4_universal.py my_dataset.csv
+
+# Convert with custom output name
+python csv_converter_v4_universal.py data.csv -o training_data.jsonl
+
+# Convert large file with row limit
+python csv_converter_v4_universal.py huge_file.csv --max-rows 50000
+```
+
+## Method 3: Advanced Batch Options
+
+```bash
+# Convert only files matching pattern
+python csv_converter_v4_universal.py . --batch --pattern "*_train.csv"
+
+# Convert with specific schema
+python csv_converter_v4_universal.py . --batch --schema alpaca
+
+# Convert large datasets with row limits per file
+python csv_converter_v4_universal.py . --batch --max-rows 100000
+```
+
+## Real Example for Your Termux Environment
+
+```bash
+# In Termux, navigate to your datasets directory
+cd ~/datasets
+
+# Copy the converter script there
+# (You'll have the csv_converter_v4_universal.py file)
+
+# Run auto-conversion on all CSV files
+python csv_converter_v4_universal.py . --batch
+
+# Watch it work:
+# 🔄 BATCH CONVERTING 5 CSV FILES
+# [1/5] Processing math_500.csv
+# Detected schema: alpaca
+# Converting math_500.csv to math_500.jsonl...
+# Converted: 500 rows
+# [2/5] Processing science_1k.csv
+# ... and so on
+```
+
+## What It Does Automatically
+
+✅ **Finds all CSV files** in the directory  
+✅ **Detects column formats** (instruction/input/output, question/answer, etc.)  
+✅ **Handles any file size** (memory-efficient streaming)  
+✅ **Shows progress** for each file  
+✅ **Creates matching .jsonl files**   
+✅ **Reports statistics** (conversion rates, errors, timing)  
+✅ **Skips empty/invalid rows** gracefully  
+
+## Troubleshooting
+
+### If your CSV has unusual column names:
+```bash
+# Check what columns it detected
+python csv_converter_v4_universal.py your_file.csv
+
+# It will show: "Column mapping: {'instruction': 'your_column_name', ...}"
+```
+
+### For custom column mapping:
+```bash
+# If your CSV has columns: "prompt", "context", "response"
+python csv_converter_v4_universal.py data.csv --schema custom --mapping '{"instruction":"prompt", "input":"context", "output":"response"}'
+```
+
+### For very large files:
+```bash
+# Process in chunks with progress updates
+python csv_converter_v4_universal.py big_file.csv --chunk-size 5000
+```
+
+## Perfect for Your Workflow!
+
+This is exactly what you need for your Termux AI development:
+- Drop in directory ✅
+- Auto-convert everything ✅  
+- Handle any size files ✅
+- Works on mobile/Android ✅
+- No memory issues ✅
+
+## Example: Your Typical Workflow
+
+1. **You have datasets like:**
+   ```
+   ~/ai_training/
+   ├── math_problems.csv (2MB, 1000 rows)
+   ├── science_qa.csv (15MB, 5000 rows) 
+   ├── literature_analysis.csv (500KB, 200 rows)
+   └── reasoning_tasks.csv (50MB, 25000 rows)
+   ```
+
+2. **Copy converter:**
+   ```bash
+   cp csv_converter_v4_universal.py ~/ai_training/
+   ```
+
+3. **Run batch conversion:**
+   ```bash
+   cd ~/ai_training
+   python csv_converter_v4_universal.py . --batch
+   ```
+
+4. **Get results:**
+   ```
+   ~/ai_training/
+   ├── csv_converter_v4_universal.py
+   ├── math_problems.csv → math_problems.jsonl ✅
+   ├── science_qa.csv → science_qa.jsonl ✅
+   ├── literature_analysis.csv → literature_analysis.jsonl ✅
+   ├── reasoning_tasks.csv → reasoning_tasks.jsonl ✅
+   ```
+
+5. **Ready for training!**  
+   Your .jsonl files are ready for llama.cpp, transformers, or any LLM training pipeline.

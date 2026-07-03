@@ -1,0 +1,90 @@
+import os
+import glob
+import json
+import hashlib
+import pyarrow.parquet as pq
+import pyarrow as pa
+from pathlib import Path
+
+# Schema compatibility mappings [1][4]
+SCHEMA_ADAPTATIONS = {
+    pa.timestamp('ns'): lambda x: x.isoformat(),
+    pa.binary(): lambda x: x.hex(),
+    pa.decimal128(): float
+}
+
+def preserve_data_types(record_batch):
+    """Convert Arrow types to JSON-serializable formats [1][6]"""
+    converted = []
+    for i in range(record_batch.num_rows):
+        row = {}
+        for col_idx in range(record_batch.num_columns):
+            col_name = record_batch.schema.names[col_idx]
+            value = record_batch[col_idx][i].as_py()
+            
+            # Apply type conversions [4][6]
+            if record_batch.schema.types[col_idx] in SCHEMA_ADAPTATIONS:
+                converter = SCHEMA_ADAPTATIONS[record_batch.schema.types[col_idx]]
+                value = converter(value)
+                
+            row[col_name] = value
+        converted.append(row)
+    return converted
+
+def validate_jsonl_line(line):
+    """Ensure JSONL compliance [6]"""
+    try:
+        json.loads(line)
+        return True
+    except json.JSONDecodeError:
+        return False
+
+def process_file(input_path, output_dir, chunk_size=1000):
+    parquet_file = pq.ParquetFile(input_path)
+    original_schema = parquet_file.schema_arrow
+    base_name = Path(input_path).stem
+    
+    # Create checksum of original file [1]
+    file_hash = hashlib.sha256(Path(input_path).read_bytes()).hexdigest()
+    
+    # Maintain directory structure [1]
+    output_path = Path(output_dir) / "converted" / base_name
+    output_path.mkdir(parents=True, exist_ok=True)
+    
+    # Schema documentation [4]
+    schema_doc = {
+        "original_schema": str(original_schema),
+        "conversion_rules": str(SCHEMA_ADAPTATIONS),
+        "source_hash": file_hash
+    }
+    
+    chunk_num = 0
+    for batch in parquet_file.iter_batches(batch_size=chunk_size):
+        # Type conversion pipeline [4][6]
+        converted_data = preserve_data_types(batch)
+        
+        # Write chunk with validation
+        chunk_file = output_path / f"{base_name}_part{chunk_num}.jsonl"
+        with open(chunk_file, 'w', encoding='utf-8') as f:
+            for record in converted_data:
+                line = json.dumps(record, ensure_ascii=False)
+                if validate_jsonl_line(line):
+                    f.write(line + '\n')
+        
+        # Write schema metadata [1][4]
+        with open(output_path / "_schema.json", 'w') as meta:
+            json.dump(schema_doc, meta)
+        
+        chunk_num += 1
+
+if __name__ == "__main__":
+    DATA_DIR = "/storage/emulated/0/download/datasets/training_session/"
+    
+    # Process all Parquet files with integrity checks [1][4]
+    for parquet_file in glob.glob(os.path.join(DATA_DIR, "*.parquet")):
+        process_file(
+            input_path=parquet_file,
+            output_dir=DATA_DIR,
+            chunk_size=1000  # Adjust based on system memory [2][4]
+        )
+

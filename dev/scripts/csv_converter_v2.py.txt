@@ -1,0 +1,182 @@
+# Enhanced CSV to JSONL Converter - Perfect for Your Datasets
+# Specifically designed for instruction,input,output format
+
+import csv
+import json
+import os
+from typing import List, Dict, Any
+
+def csv_to_jsonl_instruction_format(csv_path: str, jsonl_path: str) -> int:
+    """
+    Convert CSV files with instruction,input,output format to JSONL
+    Perfect for your MATH, LITERATURE, SCIENCE, REASONING, GENERAL_KNOWLEDGE datasets
+    """
+    converted_count = 0
+    
+    print(f"Converting {csv_path} to {jsonl_path}...")
+    
+    try:
+        with open(csv_path, 'r', encoding='utf-8') as csv_file:
+            # Use DictReader to automatically handle headers
+            reader = csv.DictReader(csv_file)
+            
+            # Verify expected columns exist
+            if not all(col in reader.fieldnames for col in ['instruction', 'input', 'output']):
+                print(f"Warning: Expected columns [instruction, input, output] not found")
+                print(f"Found columns: {reader.fieldnames}")
+                return 0
+            
+            with open(jsonl_path, 'w', encoding='utf-8') as jsonl_file:
+                for row_num, row in enumerate(reader, 1):
+                    # Clean and validate data
+                    instruction = row['instruction'].strip()
+                    input_text = row['input'].strip() if row['input'] else ""
+                    output_text = row['output'].strip()
+                    
+                    # Skip rows with empty instruction or output
+                    if not instruction or not output_text:
+                        print(f"Skipping row {row_num}: empty instruction or output")
+                        continue
+                    
+                    # Create JSONL entry in Alpaca format
+                    json_obj = {
+                        "instruction": instruction,
+                        "input": input_text,
+                        "output": output_text
+                    }
+                    
+                    # Write to JSONL file
+                    jsonl_file.write(json.dumps(json_obj, ensure_ascii=False) + '\n')
+                    converted_count += 1
+        
+        print(f"Successfully converted {converted_count} samples to {jsonl_path}")
+        return converted_count
+        
+    except FileNotFoundError:
+        print(f"Error: File {csv_path} not found")
+        return 0
+    except Exception as e:
+        print(f"Error processing {csv_path}: {e}")
+        return 0
+
+def convert_all_datasets(csv_directory: str = ".", output_directory: str = ".") -> Dict[str, int]:
+    """
+    Convert all your educational datasets to JSONL format
+    """
+    datasets = [
+        "MATH.csv",
+        "LITERATURE.csv", 
+        "GENERAL_KNOWLEDGE.csv",
+        "SCIENCE.csv",
+        "REASONING.csv"
+    ]
+    
+    results = {}
+    total_samples = 0
+    
+    print("🔄 CONVERTING ALL EDUCATIONAL DATASETS")
+    print("=" * 50)
+    
+    for dataset in datasets:
+        csv_path = os.path.join(csv_directory, dataset)
+        jsonl_path = os.path.join(output_directory, dataset.replace('.csv', '.jsonl'))
+        
+        if os.path.exists(csv_path):
+            count = csv_to_jsonl_instruction_format(csv_path, jsonl_path)
+            results[dataset] = count
+            total_samples += count
+            print(f"✅ {dataset}: {count} samples converted")
+        else:
+            print(f"❌ {dataset}: File not found")
+            results[dataset] = 0
+    
+    print(f"\n📊 CONVERSION SUMMARY")
+    print(f"Total samples converted: {total_samples}")
+    print(f"Total datasets: {len([r for r in results.values() if r > 0])}")
+    
+    return results
+
+def validate_jsonl_file(jsonl_path: str, sample_count: int = 3) -> None:
+    """
+    Validate JSONL file and show samples
+    """
+    print(f"\n🔍 VALIDATING {jsonl_path}")
+    print("-" * 40)
+    
+    try:
+        with open(jsonl_path, 'r', encoding='utf-8') as f:
+            lines = f.readlines()
+            
+        print(f"Total lines: {len(lines)}")
+        
+        # Show sample entries
+        print(f"\nSample entries (first {sample_count}):")
+        for i, line in enumerate(lines[:sample_count], 1):
+            try:
+                data = json.loads(line)
+                print(f"\nEntry {i}:")
+                print(f"  Instruction: {data['instruction'][:80]}...")
+                print(f"  Input: {data['input'][:50]}..." if data['input'] else "  Input: (empty)")
+                print(f"  Output: {data['output'][:80]}...")
+            except json.JSONDecodeError as e:
+                print(f"  Error parsing line {i}: {e}")
+                
+    except FileNotFoundError:
+        print(f"File {jsonl_path} not found")
+    except Exception as e:
+        print(f"Error validating {jsonl_path}: {e}")
+
+def create_dataset_statistics(results: Dict[str, int]) -> None:
+    """
+    Create comprehensive statistics about the converted datasets
+    """
+    print(f"\n📈 DATASET STATISTICS")
+    print("=" * 50)
+    
+    total_samples = sum(results.values())
+    successful_datasets = len([r for r in results.values() if r > 0])
+    
+    print(f"Successfully converted: {successful_datasets}/5 datasets")
+    print(f"Total training samples: {total_samples:,}")
+    print(f"Average samples per dataset: {total_samples/max(successful_datasets,1):.0f}")
+    
+    # Dataset breakdown
+    print(f"\nDataset Breakdown:")
+    for dataset, count in results.items():
+        if count > 0:
+            percentage = (count / total_samples) * 100
+            print(f"  📁 {dataset:<20}: {count:>3} samples ({percentage:.1f}%)")
+    
+    # Training recommendations
+    print(f"\n🎯 TRAINING RECOMMENDATIONS:")
+    print(f"  • Tokenizer training: Use ~50 samples from each dataset ({50 * successful_datasets} total)")
+    print(f"  • Fine-tuning: Use full datasets in specialized phases")
+    print(f"  • Mixed training: Combine all for final comprehensive training")
+    print(f"  • Expected training time: 2-4 hours per dataset (mobile CPU)")
+
+# Example usage and testing
+if __name__ == "__main__":
+    print("🚀 ENHANCED CSV TO JSONL CONVERTER")
+    print("Specifically designed for your educational datasets")
+    print("=" * 60)
+    
+    # Convert all datasets
+    results = convert_all_datasets()
+    
+    # Create statistics
+    create_dataset_statistics(results)
+    
+    # Validate a few files
+    for dataset, count in results.items():
+        if count > 0:
+            jsonl_file = dataset.replace('.csv', '.jsonl')
+            validate_jsonl_file(jsonl_file, sample_count=2)
+            break  # Just validate one for demonstration
+    
+    print(f"\n✅ CONVERSION COMPLETE!")
+    print(f"Your datasets are now ready for the enhanced LLM training pipeline!")
+    print(f"\nNext steps:")
+    print(f"1. Copy the generated .jsonl files to your training directory")
+    print(f"2. Update your dataset paths in the training script")
+    print(f"3. Run tokenizer training with samples from all datasets")
+    print(f"4. Begin your multi-phase training strategy!")
