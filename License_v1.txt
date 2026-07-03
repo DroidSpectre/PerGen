@@ -1,0 +1,29 @@
+Simple description:
+
+This is my attempt at creating a simple dataset for LLM training.
+
+Everything within this project was "vibe coded" Sep/Oct 2025 with "Deep Research" on the Perplexity app from the Samsung store. At the time, Samsung users were given a year of Pro subscription for free.
+
+By default, I kept my search assistant set as Sonar/Best, but Deep Research supposedly functioned differently. I'm fuzzy on the details, but that's why I made sure to mention that I specifically used Deep Research mode.
+
+My goal was to create datasets for training a model from scratch, and giving it a High School level education. 
+
+On a personal note, my life got messy and I lost access to my medication unil a month ago. So, this overall project is still on going as I sort through and pick up the threads of the project. However, a lot has changed in that time period, so all of this may be worthless.
+
+Currently, there's a duplicate file, but I think there's only 1. Double check before use, but I plan on ediing it out of the project when I clean it up.
+
+Nothing in this dataset has been reviewed by a human.
+
+The scripts (in DEV) were used to convert original CSV files to JSONL.
+
+I included the original prompts used to create the dataset files (should be under DEV with the scripts).
+
+I'm working on verifying token count, sanitization, cleaning, and deduplication.
+
+I included a ReadMe for each file/dataset once I remembered to create one with the datasets.
+
+I'll generate a License later, but at the time of publication (07/03/2026 - or what ever the timestamp is for initial commit), this material is considered to be free use open source for you to do with as you please. 
+
+I just request that you cite me and this repo.
+
+*Please note, this may change once I write up the license.*
